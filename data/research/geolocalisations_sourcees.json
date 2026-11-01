@@ -1,0 +1,82 @@
+[
+  {
+    "facility_id": "public-jendouba",
+    "latitude": 36.513893,
+    "longitude": 8.757902,
+    "location_source": "https://www.openstreetmap.org/way/279258650",
+    "geometry_source": "https://www.openstreetmap.org/api/0.6/way/279258650/full",
+    "coordinate_precision": "representative_hospital_footprint_center",
+    "osm_tags": {
+      "addr:city": "جندوبة",
+      "addr:governorate": "Jendouba",
+      "addr:postcode": "8100",
+      "addr:street": "Rue du Grand Mahgreb",
+      "amenity": "hospital",
+      "barrier": "wall",
+      "healthcare": "hospital",
+      "name": "المستشفى الجهوي بجندوبة",
+      "name:ar": "المستشفى الجهوي بجندوبة",
+      "name:fr": "Hôpital Régional de Jendouba",
+      "phone": "+216 78 630 110"
+    },
+    "note": "Point représentatif calculé au centre de l’emprise hospitalière OSM (bounding box), pas position d’une machine ni relevé GPS. Source géographique communautaire distincte de la preuve sanitaire ; licence ODbL 1.0.",
+    "consulted_on": "2026-11-01"
+  },
+  {
+    "facility_id": "public-tozeur-regional",
+    "latitude": 33.91645,
+    "longitude": 8.129204,
+    "location_source": "https://www.openstreetmap.org/way/207342076",
+    "geometry_source": "https://www.openstreetmap.org/api/0.6/way/207342076/full",
+    "coordinate_precision": "representative_hospital_footprint_center",
+    "osm_tags": {
+      "addr:city": "Tozeur",
+      "addr:postcode": "2200",
+      "amenity": "hospital",
+      "healthcare": "hospital",
+      "name": "المستشفى الجهوي بتوزر",
+      "name:ar": "المستشفى الجهوي بتوزر",
+      "name:fr": "Hôpital Régional de Tozeur",
+      "phone": "+216 76 453 400"
+    },
+    "note": "Point représentatif calculé au centre de l’emprise hospitalière OSM (bounding box), pas position d’une machine ni relevé GPS. Source géographique communautaire distincte de la preuve sanitaire ; licence ODbL 1.0.",
+    "consulted_on": "2026-11-01"
+  },
+  {
+    "facility_id": "public-sidibouzid",
+    "latitude": 35.024146,
+    "longitude": 9.4659,
+    "location_source": "https://www.openstreetmap.org/way/173140958",
+    "geometry_source": "https://www.openstreetmap.org/api/0.6/way/173140958/full",
+    "coordinate_precision": "representative_hospital_footprint_center",
+    "osm_tags": {
+      "addr:city": "سيدي بوزيد",
+      "addr:postcode": "9100",
+      "amenity": "hospital",
+      "barrier": "wall",
+      "emergency": "yes",
+      "healthcare": "hospital",
+      "name": "المستشفى الجهوي بسيدي بوزيد",
+      "name:ar": "المستشفى الجهوي بسيدي بوزيد",
+      "name:fr": "Hôpital Régional de Sidi Bouzid",
+      "phone": "+216 76 632 175"
+    },
+    "note": "Point représentatif calculé au centre de l’emprise hospitalière OSM (bounding box), pas position d’une machine ni relevé GPS. Source géographique communautaire distincte de la preuve sanitaire ; licence ODbL 1.0.",
+    "consulted_on": "2026-11-01"
+  },
+  {
+    "facility_id": "public-tataouine",
+    "latitude": 32.985161,
+    "longitude": 10.46048,
+    "location_source": "https://www.openstreetmap.org/way/1064056844",
+    "geometry_source": "https://www.openstreetmap.org/api/0.6/way/1064056844/full",
+    "coordinate_precision": "representative_hospital_footprint_center",
+    "osm_tags": {
+      "amenity": "hospital",
+      "healthcare": "hospital",
+      "name": "المستشفى الجهوي بتطاوين"
+    },
+    "note": "Point représentatif calculé au centre de l’emprise hospitalière OSM (bounding box), pas position d’une machine ni relevé GPS. Source géographique communautaire distincte de la preuve sanitaire ; licence ODbL 1.0.",
+    "consulted_on": "2026-11-01"
+  }
+]

@@ -1,0 +1,3230 @@
+{
+  "consulted_on": "2026-11-01",
+  "is_demo": false,
+  "exhaustive": false,
+  "inventory_current_verified": false,
+  "records": [
+    {
+      "id": "PUB-hopitalregionaldukef-MRI",
+      "facility_id": "PUB-hopitalregionaldukef",
+      "facility_name": "Hôpital régional du Kef",
+      "aliases": [
+        "Hôpital régional du Kef"
+      ],
+      "facility_type": null,
+      "sector": "public",
+      "governorate": "Le Kef",
+      "governorate_code": "TN-33",
+      "delegation": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "MRI",
+      "equipment_count_current_verified": null,
+      "reported_counts": [],
+      "authorization_status": "unknown",
+      "installation_status": "not_established",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "installation déclarée"
+      ],
+      "observation_dates": [
+        "2025-06-02"
+      ],
+      "observation_periods": [],
+      "source_dates": [
+        "2025-06-02"
+      ],
+      "documentary_confidence": "verified_document",
+      "current_presence_confidence": "unknown",
+      "evidence_ids": [
+        "OFF-001"
+      ],
+      "source_urls": [
+        "https://www.arp.tn/ar_SY/document/download/113214"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "OFF-001",
+          "url": "https://www.arp.tn/ar_SY/document/download/113214",
+          "locator": "PDF p.8"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "Présence déclarée par le ministre; parc et disponibilité actuelle non vérifiés.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PUB-hopitalregionaldemenzeltemime-CT",
+      "facility_id": "PUB-hopitalregionaldemenzeltemime",
+      "facility_name": "Hôpital régional de Menzel Temime",
+      "aliases": [
+        "Hôpital régional de Menzel Temime"
+      ],
+      "facility_type": null,
+      "sector": "public",
+      "governorate": "Nabeul",
+      "governorate_code": "TN-21",
+      "delegation": "Menzel Temime",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "CT",
+      "equipment_count_current_verified": null,
+      "reported_counts": [],
+      "authorization_status": "unknown",
+      "installation_status": "not_established",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "accord annoncé, livraison non effectuée"
+      ],
+      "observation_dates": [
+        "2025-06-02"
+      ],
+      "observation_periods": [],
+      "source_dates": [
+        "2025-06-02"
+      ],
+      "documentary_confidence": "verified_document",
+      "current_presence_confidence": "unknown",
+      "evidence_ids": [
+        "OFF-002"
+      ],
+      "source_urls": [
+        "https://www.arp.tn/ar_SY/document/download/113214"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "OFF-002",
+          "url": "https://www.arp.tn/ar_SY/document/download/113214",
+          "locator": "PDF p.10"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "Déclaration parlementaire; pas de décision d’autorisation nominative ni de réception retrouvée.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PUB-hopitalregionalslimhadhridekerkennah-CT",
+      "facility_id": "PUB-hopitalregionalslimhadhridekerkennah",
+      "facility_name": "Hôpital régional Slim Hadhri de Kerkennah",
+      "aliases": [
+        "Hôpital régional Slim Hadhri de Kerkennah"
+      ],
+      "facility_type": null,
+      "sector": "public",
+      "governorate": "Sfax",
+      "governorate_code": "TN-61",
+      "delegation": "Kerkennah",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "CT",
+      "equipment_count_current_verified": null,
+      "reported_counts": [],
+      "authorization_status": "unknown",
+      "installation_status": "not_established",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "affectation programmée"
+      ],
+      "observation_dates": [
+        "2025-06-02"
+      ],
+      "observation_periods": [],
+      "source_dates": [
+        "2025-06-02"
+      ],
+      "documentary_confidence": "verified_document",
+      "current_presence_confidence": "unknown",
+      "evidence_ids": [
+        "OFF-003"
+      ],
+      "source_urls": [
+        "https://www.arp.tn/ar_SY/document/download/113214"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "OFF-003",
+          "url": "https://www.arp.tn/ar_SY/document/download/113214",
+          "locator": "PDF p.21"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "Annonce prospective, réalisation ultérieure non vérifiée.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PUB-hopitaldebejanomnonprecisedanslassertion-MRI",
+      "facility_id": "PUB-hopitaldebejanomnonprecisedanslassertion",
+      "facility_name": "Hôpital de Béja (nom non précisé dans l’assertion)",
+      "aliases": [
+        "Hôpital de Béja (nom non précisé dans l’assertion)"
+      ],
+      "facility_type": null,
+      "sector": "public",
+      "governorate": "Béja",
+      "governorate_code": "TN-31",
+      "delegation": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "MRI",
+      "equipment_count_current_verified": null,
+      "reported_counts": [],
+      "authorization_status": "unknown",
+      "installation_status": "not_established",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "absence alléguée"
+      ],
+      "observation_dates": [
+        "2025-06-02"
+      ],
+      "observation_periods": [],
+      "source_dates": [
+        "2025-06-02"
+      ],
+      "documentary_confidence": "verified_document",
+      "current_presence_confidence": "unknown",
+      "evidence_ids": [
+        "OFF-004"
+      ],
+      "source_urls": [
+        "https://www.arp.tn/ar_SY/document/download/113214"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "OFF-004",
+          "url": "https://www.arp.tn/ar_SY/document/download/113214",
+          "locator": "PDF p.26"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "Assertion de député; ne prouve ni absence vérifiée sur site ni absence dans le gouvernorat.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PUB-hopitaldegrombalia-CT",
+      "facility_id": "PUB-hopitaldegrombalia",
+      "facility_name": "Hôpital de Grombalia",
+      "aliases": [
+        "Hôpital de Grombalia"
+      ],
+      "facility_type": null,
+      "sector": "public",
+      "governorate": "Nabeul",
+      "governorate_code": "TN-21",
+      "delegation": "Grombalia",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "CT",
+      "equipment_count_current_verified": null,
+      "reported_counts": [],
+      "authorization_status": "unknown",
+      "installation_status": "not_established",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "absence alléguée"
+      ],
+      "observation_dates": [
+        "2025-06-02"
+      ],
+      "observation_periods": [],
+      "source_dates": [
+        "2025-06-02"
+      ],
+      "documentary_confidence": "verified_document",
+      "current_presence_confidence": "unknown",
+      "evidence_ids": [
+        "OFF-005"
+      ],
+      "source_urls": [
+        "https://www.arp.tn/ar_SY/document/download/113214"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "OFF-005",
+          "url": "https://www.arp.tn/ar_SY/document/download/113214",
+          "locator": "PDF p.39"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "Assertion de député; ne pas transformer en zéro vérifié.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PUB-hopitaldegrombalia-MRI",
+      "facility_id": "PUB-hopitaldegrombalia",
+      "facility_name": "Hôpital de Grombalia",
+      "aliases": [
+        "Hôpital de Grombalia"
+      ],
+      "facility_type": null,
+      "sector": "public",
+      "governorate": "Nabeul",
+      "governorate_code": "TN-21",
+      "delegation": "Grombalia",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "MRI",
+      "equipment_count_current_verified": null,
+      "reported_counts": [],
+      "authorization_status": "unknown",
+      "installation_status": "not_established",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "absence alléguée"
+      ],
+      "observation_dates": [
+        "2025-06-02"
+      ],
+      "observation_periods": [],
+      "source_dates": [
+        "2025-06-02"
+      ],
+      "documentary_confidence": "verified_document",
+      "current_presence_confidence": "unknown",
+      "evidence_ids": [
+        "OFF-006"
+      ],
+      "source_urls": [
+        "https://www.arp.tn/ar_SY/document/download/113214"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "OFF-006",
+          "url": "https://www.arp.tn/ar_SY/document/download/113214",
+          "locator": "PDF p.39"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "Assertion de député; ne pas transformer en zéro vérifié.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PUB-RAZI-CT",
+      "facility_id": "PUB-RAZI",
+      "facility_name": "Hôpital Razi Manouba",
+      "aliases": [
+        "Hôpital Razi",
+        "Hôpital Razi Manouba"
+      ],
+      "facility_type": "hôpital public",
+      "sector": "public",
+      "governorate": "La Manouba",
+      "governorate_code": "TN-14",
+      "delegation": null,
+      "address": "Rue des orangers - La Manouba-2010",
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "CT",
+      "equipment_count_current_verified": null,
+      "reported_counts": [],
+      "authorization_status": "unknown",
+      "installation_status": "not_established",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "unite_mentionnee_travaux",
+        "unité mentionnée dans un projet électrique"
+      ],
+      "observation_dates": [],
+      "observation_periods": [
+        "2026-01-06"
+      ],
+      "source_dates": [
+        "2026-01-06"
+      ],
+      "documentary_confidence": "verified_document",
+      "current_presence_confidence": "unknown",
+      "evidence_ids": [
+        "OFF-007",
+        "PUB-015"
+      ],
+      "source_urls": [
+        "https://www.marchespublics.gov.tn/fr/projets-annuels/P2026-134540"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "OFF-007",
+          "url": "https://www.marchespublics.gov.tn/fr/projets-annuels/P2026-134540",
+          "locator": "Objet"
+        },
+        {
+          "evidence_id": "PUB-015",
+          "url": "https://www.marchespublics.gov.tn/fr/projets-annuels/P2026-134540",
+          "locator": "P2026-134540"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "Unité mentionnée; ni achat, ni nombre, ni fonctionnement attestés par cet avis. | Projet de raccordement seulement : présence d’une unité mentionnée, machine et fonctionnement non confirmés.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PUB-RAZI-MRI",
+      "facility_id": "PUB-RAZI",
+      "facility_name": "Hôpital Razi Manouba",
+      "aliases": [
+        "Hôpital Razi",
+        "Hôpital Razi Manouba"
+      ],
+      "facility_type": "hôpital public",
+      "sector": "public",
+      "governorate": "La Manouba",
+      "governorate_code": "TN-14",
+      "delegation": null,
+      "address": "Rue des orangers - La Manouba-2010",
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "MRI",
+      "equipment_count_current_verified": null,
+      "reported_counts": [],
+      "authorization_status": "unknown",
+      "installation_status": "not_established",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "unite_mentionnee_travaux",
+        "unité mentionnée dans un projet électrique"
+      ],
+      "observation_dates": [],
+      "observation_periods": [
+        "2026-01-06"
+      ],
+      "source_dates": [
+        "2026-01-06"
+      ],
+      "documentary_confidence": "verified_document",
+      "current_presence_confidence": "unknown",
+      "evidence_ids": [
+        "OFF-008",
+        "PUB-016"
+      ],
+      "source_urls": [
+        "https://www.marchespublics.gov.tn/fr/projets-annuels/P2026-134540"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "OFF-008",
+          "url": "https://www.marchespublics.gov.tn/fr/projets-annuels/P2026-134540",
+          "locator": "Objet"
+        },
+        {
+          "evidence_id": "PUB-016",
+          "url": "https://www.marchespublics.gov.tn/fr/projets-annuels/P2026-134540",
+          "locator": "P2026-134540"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "Unité mentionnée; ni achat, ni nombre, ni fonctionnement attestés par cet avis. | Ne prouve ni remise en service ni panne de la machine ; vérifier réception des travaux.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PUB-MILITAIRE-TUNIS-MRI",
+      "facility_id": "PUB-MILITAIRE-TUNIS",
+      "facility_name": "Hôpital militaire principal d’instruction de Tunis",
+      "aliases": [
+        "Hôpital Militaire Principal d’Instruction de Tunis",
+        "Hôpital militaire principal d’instruction de Tunis"
+      ],
+      "facility_type": "hôpital public",
+      "sector": "public",
+      "governorate": "Tunis",
+      "governorate_code": "TN-11",
+      "delegation": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "MRI",
+      "equipment_count_current_verified": null,
+      "reported_counts": [],
+      "authorization_status": "unknown",
+      "installation_status": "historical_use_documented",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "aménagement de local programmé",
+        "fonctionnel_periode_etude",
+        "projet_travaux"
+      ],
+      "observation_dates": [],
+      "observation_periods": [
+        "2013–2016",
+        "2026-08-05"
+      ],
+      "source_dates": [
+        "2017",
+        "2026-08-05"
+      ],
+      "documentary_confidence": "verified_document",
+      "current_presence_confidence": "unknown",
+      "evidence_ids": [
+        "OFF-009",
+        "PUB-021",
+        "PUB-024"
+      ],
+      "source_urls": [
+        "https://epos.myesr.org/poster/esr/ecr2017/C-3073/methods%20and%20materials",
+        "https://www.marchespublics.gov.tn/fr/appels-doffres/Tender-103245"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "OFF-009",
+          "url": "https://www.marchespublics.gov.tn/fr/appels-doffres/Tender-103245",
+          "locator": "Objet / lot 1"
+        },
+        {
+          "evidence_id": "PUB-021",
+          "url": "https://www.marchespublics.gov.tn/fr/appels-doffres/Tender-103245",
+          "locator": "Tender-103245"
+        },
+        {
+          "evidence_id": "PUB-024",
+          "url": "https://epos.myesr.org/poster/esr/ecr2017/C-3073/methods%20and%20materials",
+          "locator": "Methods and materials, 2.1 ; DOI 10.1594/ecr2017/C-3073"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "La quantité 1 de l’avis désigne un lot de travaux, pas un appareil installé. | Travaux annoncés ; exécution prévue le 1er décembre 2026, future au jour de la recherche. Ne prouve pas un nouvel appareil installé. | Usage historique ; nombre total d’appareils et statut actuel inconnus.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PUB-KASSAB-MRI",
+      "facility_id": "PUB-KASSAB",
+      "facility_name": "Institut Mohamed Kassab d’orthopédie",
+      "aliases": [
+        "Institut Mohamed Kassab d’Orthopédie",
+        "Institut Mohamed Kassab d’orthopédie"
+      ],
+      "facility_type": "hôpital public",
+      "sector": "public",
+      "governorate": "La Manouba",
+      "governorate_code": "TN-14",
+      "delegation": null,
+      "address": "Kassar-Said Manouba 2010",
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "MRI",
+      "equipment_count_current_verified": null,
+      "reported_counts": [],
+      "authorization_status": "unknown",
+      "installation_status": "not_established",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "unite_mentionnee_travaux",
+        "unité mentionnée dans un marché de matériels"
+      ],
+      "observation_dates": [],
+      "observation_periods": [
+        "2026-09-12"
+      ],
+      "source_dates": [
+        "2026-09-12"
+      ],
+      "documentary_confidence": "verified_document",
+      "current_presence_confidence": "unknown",
+      "evidence_ids": [
+        "OFF-010",
+        "PUB-017"
+      ],
+      "source_urls": [
+        "https://www.marchespublics.gov.tn/fr/appels-doffres/Tender-103720",
+        "https://www.marchespublics.gov.tn/fr/projets-annuels/P2026-150136"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "OFF-010",
+          "url": "https://www.marchespublics.gov.tn/fr/projets-annuels/P2026-150136",
+          "locator": "Objet"
+        },
+        {
+          "evidence_id": "PUB-017",
+          "url": "https://www.marchespublics.gov.tn/fr/appels-doffres/Tender-103720",
+          "locator": "AO 16/2026, Tender-103720"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "Ne prouve pas acquisition d’IRM; gouvernorat non renseigné par cette page. | La date prévue du marché est le 21 janvier 2027 ; aucune mise en service d’une IRM démontrée.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PUB-KASSAB-CT",
+      "facility_id": "PUB-KASSAB",
+      "facility_name": "Institut Mohamed Kassab d’Orthopédie",
+      "aliases": [
+        "Institut Mohamed Kassab d’Orthopédie"
+      ],
+      "facility_type": "hôpital public",
+      "sector": "public",
+      "governorate": "La Manouba",
+      "governorate_code": "TN-14",
+      "delegation": null,
+      "address": "Ksar Saïd - 2010",
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "CT",
+      "equipment_count_current_verified": null,
+      "reported_counts": [],
+      "authorization_status": "unknown",
+      "installation_status": "not_established",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "acquisition_historique"
+      ],
+      "observation_dates": [],
+      "observation_periods": [
+        "2019 (exercice du rapport)"
+      ],
+      "source_dates": [],
+      "documentary_confidence": "probable",
+      "current_presence_confidence": "unknown",
+      "evidence_ids": [
+        "PUB-001"
+      ],
+      "source_urls": [
+        "https://www.gbo.tn/sites/default/files/2021-11/RAP%202019%20Sant%C3%A9FR.pdf"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PUB-001",
+          "url": "https://www.gbo.tn/sites/default/files/2021-11/RAP%202019%20Sant%C3%A9FR.pdf",
+          "locator": "page imprimée 9"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "PDF original non relu intégralement ; extrait indexé primaire. Ni réception, ni installation, ni fonctionnement prouvés. Nombre par établissement non alloué.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PUB-hopitaltahersafarorthographedurapport-CT",
+      "facility_id": "PUB-hopitaltahersafarorthographedurapport",
+      "facility_name": "Hôpital Taher Safar [orthographe du rapport]",
+      "aliases": [
+        "Hôpital Taher Safar [orthographe du rapport]"
+      ],
+      "facility_type": "hôpital public",
+      "sector": "public",
+      "governorate": null,
+      "governorate_code": null,
+      "delegation": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "CT",
+      "equipment_count_current_verified": null,
+      "reported_counts": [],
+      "authorization_status": "unknown",
+      "installation_status": "not_established",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "acquisition_historique"
+      ],
+      "observation_dates": [],
+      "observation_periods": [
+        "2019 (exercice du rapport)"
+      ],
+      "source_dates": [],
+      "documentary_confidence": "probable",
+      "current_presence_confidence": "unknown",
+      "evidence_ids": [
+        "PUB-002"
+      ],
+      "source_urls": [
+        "https://www.gbo.tn/sites/default/files/2021-11/RAP%202019%20Sant%C3%A9FR.pdf"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PUB-002",
+          "url": "https://www.gbo.tn/sites/default/files/2021-11/RAP%202019%20Sant%C3%A9FR.pdf",
+          "locator": "page imprimée 9"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "PDF original non relu intégralement ; extrait indexé primaire. Ni réception, ni installation, ni fonctionnement prouvés. Nombre par établissement non alloué.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PUB-hopitalpourenfantsnonprecisedavantagedanslerapport-CT",
+      "facility_id": "PUB-hopitalpourenfantsnonprecisedavantagedanslerapport",
+      "facility_name": "Hôpital pour enfants [non précisé davantage dans le rapport]",
+      "aliases": [
+        "Hôpital pour enfants [non précisé davantage dans le rapport]"
+      ],
+      "facility_type": "hôpital public",
+      "sector": "public",
+      "governorate": null,
+      "governorate_code": null,
+      "delegation": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "CT",
+      "equipment_count_current_verified": null,
+      "reported_counts": [],
+      "authorization_status": "unknown",
+      "installation_status": "not_established",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "acquisition_historique"
+      ],
+      "observation_dates": [],
+      "observation_periods": [
+        "2019 (exercice du rapport)"
+      ],
+      "source_dates": [],
+      "documentary_confidence": "probable",
+      "current_presence_confidence": "unknown",
+      "evidence_ids": [
+        "PUB-003"
+      ],
+      "source_urls": [
+        "https://www.gbo.tn/sites/default/files/2021-11/RAP%202019%20Sant%C3%A9FR.pdf"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PUB-003",
+          "url": "https://www.gbo.tn/sites/default/files/2021-11/RAP%202019%20Sant%C3%A9FR.pdf",
+          "locator": "page imprimée 9"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "PDF original non relu intégralement ; extrait indexé primaire. Ni réception, ni installation, ni fonctionnement prouvés. Nombre par établissement non alloué.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PUB-HABIB-THAMEUR-CT",
+      "facility_id": "PUB-HABIB-THAMEUR",
+      "facility_name": "Hôpital Habib Thameur",
+      "aliases": [
+        "Hôpital Habib Thameur"
+      ],
+      "facility_type": "hôpital public",
+      "sector": "public",
+      "governorate": "Tunis",
+      "governorate_code": "TN-11",
+      "delegation": null,
+      "address": "Montfleury, Tunis",
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "CT",
+      "equipment_count_current_verified": null,
+      "reported_counts": [],
+      "authorization_status": "unknown",
+      "installation_status": "historical_use_documented",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "acquisition_historique",
+        "fonctionnel_periode_etude"
+      ],
+      "observation_dates": [],
+      "observation_periods": [
+        "2019 (exercice du rapport)",
+        "2021-01 à 2022-01"
+      ],
+      "source_dates": [
+        "2024"
+      ],
+      "documentary_confidence": "verified_document",
+      "current_presence_confidence": "unknown",
+      "evidence_ids": [
+        "PUB-004",
+        "PUB-023"
+      ],
+      "source_urls": [
+        "https://epos.myesr.org/poster/esr/ecr2024/C-19713/methods%20and%20materials",
+        "https://www.gbo.tn/sites/default/files/2021-11/RAP%202019%20Sant%C3%A9FR.pdf"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PUB-004",
+          "url": "https://www.gbo.tn/sites/default/files/2021-11/RAP%202019%20Sant%C3%A9FR.pdf",
+          "locator": "page imprimée 9"
+        },
+        {
+          "evidence_id": "PUB-023",
+          "url": "https://epos.myesr.org/poster/esr/ecr2024/C-19713/methods%20and%20materials",
+          "locator": "Methods and materials ; DOI 10.26044/ecr2024/C-19713"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "PDF original non relu intégralement ; extrait indexé primaire. Ni réception, ni installation, ni fonctionnement prouvés. Nombre par établissement non alloué. | Fonctionnement documenté durant l’étude ; parc total et état en 2026 inconnus.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PUB-LA-RABTA-CT",
+      "facility_id": "PUB-LA-RABTA",
+      "facility_name": "Hôpital La Rabta",
+      "aliases": [
+        "Hôpital La Rabta"
+      ],
+      "facility_type": "hôpital public",
+      "sector": "public",
+      "governorate": "Tunis",
+      "governorate_code": "TN-11",
+      "delegation": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "CT",
+      "equipment_count_current_verified": null,
+      "reported_counts": [],
+      "authorization_status": "unknown",
+      "installation_status": "not_established",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "acquisition_historique",
+        "projet_etudes"
+      ],
+      "observation_dates": [],
+      "observation_periods": [
+        "2019 (exercice du rapport)",
+        "2025-07-14"
+      ],
+      "source_dates": [
+        "2025-07-14"
+      ],
+      "documentary_confidence": "verified_document",
+      "current_presence_confidence": "unknown",
+      "evidence_ids": [
+        "PUB-005",
+        "PUB-018"
+      ],
+      "source_urls": [
+        "https://www.gbo.tn/sites/default/files/2021-11/RAP%202019%20Sant%C3%A9FR.pdf",
+        "https://www.marchespublics.gov.tn/fr/appels-doffres/Tender-97909"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PUB-005",
+          "url": "https://www.gbo.tn/sites/default/files/2021-11/RAP%202019%20Sant%C3%A9FR.pdf",
+          "locator": "page imprimée 9"
+        },
+        {
+          "evidence_id": "PUB-018",
+          "url": "https://www.marchespublics.gov.tn/fr/appels-doffres/Tender-97909",
+          "locator": "Tender-97909, descriptif et lot 3"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "PDF original non relu intégralement ; extrait indexé primaire. Ni réception, ni installation, ni fonctionnement prouvés. Nombre par établissement non alloué. | Projet d’études ; ne pas additionner au scanner historique ni compter un équipement installé.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PUB-hopitalmongislim-CT",
+      "facility_id": "PUB-hopitalmongislim",
+      "facility_name": "Hôpital Mongi Slim",
+      "aliases": [
+        "Hôpital Mongi Slim"
+      ],
+      "facility_type": "hôpital public",
+      "sector": "public",
+      "governorate": "Tunis",
+      "governorate_code": "TN-11",
+      "delegation": null,
+      "address": "Sidi Daoud, la Marsa, 2070",
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "CT",
+      "equipment_count_current_verified": null,
+      "reported_counts": [],
+      "authorization_status": "unknown",
+      "installation_status": "not_established",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "acquisition_historique"
+      ],
+      "observation_dates": [],
+      "observation_periods": [
+        "2019 (exercice du rapport)"
+      ],
+      "source_dates": [],
+      "documentary_confidence": "probable",
+      "current_presence_confidence": "unknown",
+      "evidence_ids": [
+        "PUB-006"
+      ],
+      "source_urls": [
+        "https://www.gbo.tn/sites/default/files/2021-11/RAP%202019%20Sant%C3%A9FR.pdf"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PUB-006",
+          "url": "https://www.gbo.tn/sites/default/files/2021-11/RAP%202019%20Sant%C3%A9FR.pdf",
+          "locator": "page imprimée 9"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "PDF original non relu intégralement ; extrait indexé primaire. Ni réception, ni installation, ni fonctionnement prouvés. Nombre par établissement non alloué.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PUB-hopitalregionaldebeja-CT",
+      "facility_id": "PUB-hopitalregionaldebeja",
+      "facility_name": "Hôpital régional de Béja",
+      "aliases": [
+        "Hôpital régional de Béja"
+      ],
+      "facility_type": "hôpital public",
+      "sector": "public",
+      "governorate": "Béja",
+      "governorate_code": "TN-31",
+      "delegation": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "CT",
+      "equipment_count_current_verified": null,
+      "reported_counts": [],
+      "authorization_status": "unknown",
+      "installation_status": "not_established",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "acquisition_historique"
+      ],
+      "observation_dates": [],
+      "observation_periods": [
+        "2019 (exercice du rapport)"
+      ],
+      "source_dates": [],
+      "documentary_confidence": "probable",
+      "current_presence_confidence": "unknown",
+      "evidence_ids": [
+        "PUB-007"
+      ],
+      "source_urls": [
+        "https://www.gbo.tn/sites/default/files/2021-11/RAP%202019%20Sant%C3%A9FR.pdf"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PUB-007",
+          "url": "https://www.gbo.tn/sites/default/files/2021-11/RAP%202019%20Sant%C3%A9FR.pdf",
+          "locator": "page imprimée 9"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "PDF original non relu intégralement ; extrait indexé primaire. Ni réception, ni installation, ni fonctionnement prouvés. Nombre par établissement non alloué.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PUB-hopitalregionaldetataouine-CT",
+      "facility_id": "PUB-hopitalregionaldetataouine",
+      "facility_name": "Hôpital régional de Tataouine",
+      "aliases": [
+        "Hôpital régional de Tataouine"
+      ],
+      "facility_type": "hôpital public",
+      "sector": "public",
+      "governorate": "Tataouine",
+      "governorate_code": "TN-83",
+      "delegation": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "CT",
+      "equipment_count_current_verified": null,
+      "reported_counts": [],
+      "authorization_status": "unknown",
+      "installation_status": "not_established",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "acquisition_historique"
+      ],
+      "observation_dates": [],
+      "observation_periods": [
+        "2019 (exercice du rapport)"
+      ],
+      "source_dates": [],
+      "documentary_confidence": "probable",
+      "current_presence_confidence": "unknown",
+      "evidence_ids": [
+        "PUB-008"
+      ],
+      "source_urls": [
+        "https://www.gbo.tn/sites/default/files/2021-11/RAP%202019%20Sant%C3%A9FR.pdf"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PUB-008",
+          "url": "https://www.gbo.tn/sites/default/files/2021-11/RAP%202019%20Sant%C3%A9FR.pdf",
+          "locator": "page imprimée 9"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "PDF original non relu intégralement ; extrait indexé primaire. Ni réception, ni installation, ni fonctionnement prouvés. Nombre par établissement non alloué.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PUB-hopitalregionaldezaghouan-CT",
+      "facility_id": "PUB-hopitalregionaldezaghouan",
+      "facility_name": "Hôpital régional de Zaghouan",
+      "aliases": [
+        "Hôpital régional de Zaghouan"
+      ],
+      "facility_type": "hôpital public",
+      "sector": "public",
+      "governorate": "Zaghouan",
+      "governorate_code": "TN-22",
+      "delegation": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "CT",
+      "equipment_count_current_verified": null,
+      "reported_counts": [],
+      "authorization_status": "unknown",
+      "installation_status": "not_established",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "acquisition_historique"
+      ],
+      "observation_dates": [],
+      "observation_periods": [
+        "2019 (exercice du rapport)"
+      ],
+      "source_dates": [],
+      "documentary_confidence": "probable",
+      "current_presence_confidence": "unknown",
+      "evidence_ids": [
+        "PUB-009"
+      ],
+      "source_urls": [
+        "https://www.gbo.tn/sites/default/files/2021-11/RAP%202019%20Sant%C3%A9FR.pdf"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PUB-009",
+          "url": "https://www.gbo.tn/sites/default/files/2021-11/RAP%202019%20Sant%C3%A9FR.pdf",
+          "locator": "page imprimée 9"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "PDF original non relu intégralement ; extrait indexé primaire. Ni réception, ni installation, ni fonctionnement prouvés. Nombre par établissement non alloué.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PUB-hopitalfarhathachadorthographedurapport-CT",
+      "facility_id": "PUB-hopitalfarhathachadorthographedurapport",
+      "facility_name": "Hôpital Farhat Hachad [orthographe du rapport]",
+      "aliases": [
+        "Hôpital Farhat Hachad [orthographe du rapport]"
+      ],
+      "facility_type": "hôpital public",
+      "sector": "public",
+      "governorate": null,
+      "governorate_code": null,
+      "delegation": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "CT",
+      "equipment_count_current_verified": null,
+      "reported_counts": [],
+      "authorization_status": "unknown",
+      "installation_status": "not_established",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "acquisition_historique"
+      ],
+      "observation_dates": [],
+      "observation_periods": [
+        "2019 (exercice du rapport)"
+      ],
+      "source_dates": [],
+      "documentary_confidence": "probable",
+      "current_presence_confidence": "unknown",
+      "evidence_ids": [
+        "PUB-010"
+      ],
+      "source_urls": [
+        "https://www.gbo.tn/sites/default/files/2021-11/RAP%202019%20Sant%C3%A9FR.pdf"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PUB-010",
+          "url": "https://www.gbo.tn/sites/default/files/2021-11/RAP%202019%20Sant%C3%A9FR.pdf",
+          "locator": "page imprimée 9"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "PDF original non relu intégralement ; extrait indexé primaire. Ni réception, ni installation, ni fonctionnement prouvés. Nombre par établissement non alloué.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PUB-hopitalregionaldemedenine-MRI",
+      "facility_id": "PUB-hopitalregionaldemedenine",
+      "facility_name": "Hôpital régional de Médenine",
+      "aliases": [
+        "Hôpital régional de Médenine"
+      ],
+      "facility_type": "hôpital public",
+      "sector": "public",
+      "governorate": "Médenine",
+      "governorate_code": "TN-82",
+      "delegation": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "MRI",
+      "equipment_count_current_verified": null,
+      "reported_counts": [],
+      "authorization_status": "unknown",
+      "installation_status": "not_established",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "acquisition_historique"
+      ],
+      "observation_dates": [],
+      "observation_periods": [
+        "2019 (exercice du rapport)"
+      ],
+      "source_dates": [],
+      "documentary_confidence": "probable",
+      "current_presence_confidence": "unknown",
+      "evidence_ids": [
+        "PUB-011"
+      ],
+      "source_urls": [
+        "https://www.gbo.tn/sites/default/files/2021-11/RAP%202019%20Sant%C3%A9FR.pdf"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PUB-011",
+          "url": "https://www.gbo.tn/sites/default/files/2021-11/RAP%202019%20Sant%C3%A9FR.pdf",
+          "locator": "page imprimée 9"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "PDF original non relu intégralement ; extrait indexé primaire. Ni réception, ni installation, ni fonctionnement prouvés. Nombre par établissement non alloué.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PUB-hopitalregionaldekasserine-MRI",
+      "facility_id": "PUB-hopitalregionaldekasserine",
+      "facility_name": "Hôpital régional de Kasserine",
+      "aliases": [
+        "Hôpital régional de Kasserine"
+      ],
+      "facility_type": "hôpital public",
+      "sector": "public",
+      "governorate": "Kasserine",
+      "governorate_code": "TN-42",
+      "delegation": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "MRI",
+      "equipment_count_current_verified": null,
+      "reported_counts": [],
+      "authorization_status": "unknown",
+      "installation_status": "not_established",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "acquisition_historique"
+      ],
+      "observation_dates": [],
+      "observation_periods": [
+        "2019 (exercice du rapport)"
+      ],
+      "source_dates": [],
+      "documentary_confidence": "probable",
+      "current_presence_confidence": "unknown",
+      "evidence_ids": [
+        "PUB-012"
+      ],
+      "source_urls": [
+        "https://www.gbo.tn/sites/default/files/2021-11/RAP%202019%20Sant%C3%A9FR.pdf"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PUB-012",
+          "url": "https://www.gbo.tn/sites/default/files/2021-11/RAP%202019%20Sant%C3%A9FR.pdf",
+          "locator": "page imprimée 9"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "PDF original non relu intégralement ; extrait indexé primaire. Ni réception, ni installation, ni fonctionnement prouvés. Nombre par établissement non alloué.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PUB-hopitalregionaldebizerte-MRI",
+      "facility_id": "PUB-hopitalregionaldebizerte",
+      "facility_name": "Hôpital régional de Bizerte",
+      "aliases": [
+        "Hôpital régional de Bizerte"
+      ],
+      "facility_type": "hôpital public",
+      "sector": "public",
+      "governorate": "Bizerte",
+      "governorate_code": "TN-23",
+      "delegation": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "MRI",
+      "equipment_count_current_verified": null,
+      "reported_counts": [],
+      "authorization_status": "unknown",
+      "installation_status": "not_established",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "acquisition_historique"
+      ],
+      "observation_dates": [],
+      "observation_periods": [
+        "2019 (exercice du rapport)"
+      ],
+      "source_dates": [],
+      "documentary_confidence": "probable",
+      "current_presence_confidence": "unknown",
+      "evidence_ids": [
+        "PUB-013"
+      ],
+      "source_urls": [
+        "https://www.gbo.tn/sites/default/files/2021-11/RAP%202019%20Sant%C3%A9FR.pdf"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PUB-013",
+          "url": "https://www.gbo.tn/sites/default/files/2021-11/RAP%202019%20Sant%C3%A9FR.pdf",
+          "locator": "page imprimée 9"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "PDF original non relu intégralement ; extrait indexé primaire. Ni réception, ni installation, ni fonctionnement prouvés. Nombre par établissement non alloué.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PUB-LA-RABTA-MRI",
+      "facility_id": "PUB-LA-RABTA",
+      "facility_name": "Hôpital La Rabta",
+      "aliases": [
+        "Hôpital La Rabta"
+      ],
+      "facility_type": "hôpital public",
+      "sector": "public",
+      "governorate": "Tunis",
+      "governorate_code": "TN-11",
+      "delegation": null,
+      "address": "La Rabta, Tunis-1007",
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "MRI",
+      "equipment_count_current_verified": null,
+      "reported_counts": [],
+      "authorization_status": "unknown",
+      "installation_status": "historical_use_documented",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "acquisition_historique",
+        "fonctionnel_periode_etude"
+      ],
+      "observation_dates": [],
+      "observation_periods": [
+        "2019 (exercice du rapport)",
+        "2020-01 à 2021-10"
+      ],
+      "source_dates": [
+        "2022"
+      ],
+      "documentary_confidence": "verified_document",
+      "current_presence_confidence": "unknown",
+      "evidence_ids": [
+        "PUB-014",
+        "PUB-025"
+      ],
+      "source_urls": [
+        "https://epos.myesr.org/poster/esr/ecr2022/C-12748/Findings%20and%20procedure%20details",
+        "https://www.gbo.tn/sites/default/files/2021-11/RAP%202019%20Sant%C3%A9FR.pdf"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PUB-014",
+          "url": "https://www.gbo.tn/sites/default/files/2021-11/RAP%202019%20Sant%C3%A9FR.pdf",
+          "locator": "page imprimée 9"
+        },
+        {
+          "evidence_id": "PUB-025",
+          "url": "https://epos.myesr.org/poster/esr/ecr2022/C-12748/Findings%20and%20procedure%20details",
+          "locator": "Findings and procedure details ; DOI 10.26044/ecr2022/C-12748"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "PDF original non relu intégralement ; extrait indexé primaire. Ni réception, ni installation, ni fonctionnement prouvés. Nombre par établissement non alloué. | Activité clinique datée ; nombre et état actuel des machines inconnus.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PUB-hopitaldecirconscriptiondedouz-CT",
+      "facility_id": "PUB-hopitaldecirconscriptiondedouz",
+      "facility_name": "Hôpital de circonscription de Douz",
+      "aliases": [
+        "Hôpital de circonscription de Douz"
+      ],
+      "facility_type": "hôpital public",
+      "sector": "public",
+      "governorate": "Kébili",
+      "governorate_code": "TN-73",
+      "delegation": null,
+      "address": "Rue de Kébili, Douz (code postal affiché : 40260)",
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "CT",
+      "equipment_count_current_verified": null,
+      "reported_counts": [],
+      "authorization_status": "unknown",
+      "installation_status": "not_established",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "projet_travaux",
+        "projet_travaux_relance"
+      ],
+      "observation_dates": [],
+      "observation_periods": [
+        "2026-06-24",
+        "2026-08-05"
+      ],
+      "source_dates": [
+        "2026-06-24",
+        "2026-08-05"
+      ],
+      "documentary_confidence": "verified_document",
+      "current_presence_confidence": "unknown",
+      "evidence_ids": [
+        "PUB-019",
+        "PUB-020"
+      ],
+      "source_urls": [
+        "https://www.marchespublics.gov.tn/fr/appels-doffres/Tender-102673",
+        "https://www.marchespublics.gov.tn/fr/appels-doffres/Tender-103253"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PUB-019",
+          "url": "https://www.marchespublics.gov.tn/fr/appels-doffres/Tender-102673",
+          "locator": "Tender-102673"
+        },
+        {
+          "evidence_id": "PUB-020",
+          "url": "https://www.marchespublics.gov.tn/fr/appels-doffres/Tender-103253",
+          "locator": "Tender-103253, deuxième fois"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "Quantité 1 = lot de travaux, pas nombre de scanners. Installation non confirmée. Code postal conservé tel qu’affiché, à vérifier. | Relance du même projet ; ne pas doubler le compte. Résultat final et réception inconnus.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "unassigned-PUB-022-MRI",
+      "facility_id": "unassigned-PUB-022",
+      "facility_name": null,
+      "aliases": [],
+      "facility_type": null,
+      "sector": "public",
+      "governorate": null,
+      "governorate_code": null,
+      "delegation": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "MRI",
+      "equipment_count_current_verified": null,
+      "reported_counts": [],
+      "authorization_status": "unknown",
+      "installation_status": "not_established",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "appel_offres_acquisition"
+      ],
+      "observation_dates": [],
+      "observation_periods": [
+        "2026-02-05"
+      ],
+      "source_dates": [
+        "2026-02-05"
+      ],
+      "documentary_confidence": "verified_document",
+      "current_presence_confidence": "unknown",
+      "evidence_ids": [
+        "PUB-022"
+      ],
+      "source_urls": [
+        "https://www.marchespublics.gov.tn/fr/appels-doffres/Tender-100491"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PUB-022",
+          "url": "https://www.marchespublics.gov.tn/fr/appels-doffres/Tender-100491",
+          "locator": "Tender-100491, lots 1 et 2 ; MAJ 2026-07-28"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "Bénéficiaires non identifiés. Région d’exécution Tunis ne localise pas les appareils. État administratif Complet ne vaut pas réception.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PUB-chusahloul-CT",
+      "facility_id": "PUB-chusahloul",
+      "facility_name": "CHU Sahloul",
+      "aliases": [
+        "CHU Sahloul"
+      ],
+      "facility_type": "hôpital public",
+      "sector": "public",
+      "governorate": "Sousse",
+      "governorate_code": "TN-51",
+      "delegation": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "CT",
+      "equipment_count_current_verified": null,
+      "reported_counts": [],
+      "authorization_status": "unknown",
+      "installation_status": "historical_use_documented",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "fonctionnel_periode_etude"
+      ],
+      "observation_dates": [],
+      "observation_periods": [
+        "2008-01 à 2009-08"
+      ],
+      "source_dates": [
+        "2010"
+      ],
+      "documentary_confidence": "verified_document",
+      "current_presence_confidence": "unknown",
+      "evidence_ids": [
+        "PUB-026"
+      ],
+      "source_urls": [
+        "https://epos.myesr.org/poster/esr/ecr2010/C-0996/imaging%20findings%20or%20procedure%20"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PUB-026",
+          "url": "https://epos.myesr.org/poster/esr/ecr2010/C-0996/imaging%20findings%20or%20procedure%20",
+          "locator": "Imaging findings OR Procedure details ; DOI 10.1594/ecr2010/C-0996"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "Source ancienne ; aucune information sur maintien ou remplacement de cette machine.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PUB-hopitalabderrahmenmami-CT",
+      "facility_id": "PUB-hopitalabderrahmenmami",
+      "facility_name": "Hôpital Abderrahmen Mami",
+      "aliases": [
+        "Hôpital Abderrahmen Mami"
+      ],
+      "facility_type": "hôpital public",
+      "sector": "public",
+      "governorate": "Ariana",
+      "governorate_code": "TN-12",
+      "delegation": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "CT",
+      "equipment_count_current_verified": null,
+      "reported_counts": [],
+      "authorization_status": "unknown",
+      "installation_status": "historical_use_documented",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "fonctionnel_periode_etude"
+      ],
+      "observation_dates": [],
+      "observation_periods": [
+        "Période de recherche des cas 1989–2015 ; date précise des examens non établie"
+      ],
+      "source_dates": [
+        "2016"
+      ],
+      "documentary_confidence": "probable",
+      "current_presence_confidence": "unknown",
+      "evidence_ids": [
+        "PUB-027"
+      ],
+      "source_urls": [
+        "https://epos.myesr.org/poster/esr/ecr2016/C-1301"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PUB-027",
+          "url": "https://epos.myesr.org/poster/esr/ecr2016/C-1301",
+          "locator": "Methods and materials ; DOI 10.1594/ecr2016/C-1301"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "La période de recherche ne prouve pas que le scanner décrit existait en 1989. Inventaire et fonctionnement actuels inconnus.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PUB-hopitalfattoumabourguibaunitemereetftus-MRI",
+      "facility_id": "PUB-hopitalfattoumabourguibaunitemereetftus",
+      "facility_name": "Hôpital Fattouma Bourguiba – unité mère et fœtus",
+      "aliases": [
+        "Hôpital Fattouma Bourguiba – unité mère et fœtus"
+      ],
+      "facility_type": "hôpital public",
+      "sector": "public",
+      "governorate": "Monastir",
+      "governorate_code": "TN-52",
+      "delegation": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "MRI",
+      "equipment_count_current_verified": null,
+      "reported_counts": [],
+      "authorization_status": "unknown",
+      "installation_status": "not_established",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "revue_clinique_mri_site_machine_non_confirme"
+      ],
+      "observation_dates": [],
+      "observation_periods": [
+        "2010–2016"
+      ],
+      "source_dates": [
+        "2017"
+      ],
+      "documentary_confidence": "verified_document",
+      "current_presence_confidence": "unknown",
+      "evidence_ids": [
+        "PUB-028"
+      ],
+      "source_urls": [
+        "https://epos.myesr.org/poster/esr/ecr2017/C-0446"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PUB-028",
+          "url": "https://epos.myesr.org/poster/esr/ecr2017/C-0446",
+          "locator": "Methods and materials ; DOI 10.1594/ecr2017/C-0446"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "Lieu de revue connu, lieu d’acquisition et propriété de la machine non établis. Ne pas utiliser comme preuve d’un appareil installé.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PRIV-P01-CT",
+      "facility_id": "PRIV-P01",
+      "facility_name": "Clinique Pasteur Tunis",
+      "aliases": [
+        "Clinique Pasteur Tunis"
+      ],
+      "facility_type": "clinique",
+      "sector": "private",
+      "governorate": "Tunis",
+      "governorate_code": "TN-11",
+      "delegation": null,
+      "address": "Centre Urbain Nord, 1003/1082 Tunis",
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "CT",
+      "equipment_count_current_verified": null,
+      "reported_counts": [],
+      "authorization_status": "unknown",
+      "installation_status": "declared_undated",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "installed_declared_undated"
+      ],
+      "observation_dates": [],
+      "observation_periods": [],
+      "source_dates": [],
+      "documentary_confidence": "verified_document",
+      "current_presence_confidence": "probable",
+      "evidence_ids": [
+        "PRIV-P01-CT"
+      ],
+      "source_urls": [
+        "https://cliniquepasteurtunis.com/fr/centres/radiologie"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PRIV-P01-CT",
+          "url": "https://cliniquepasteurtunis.com/fr/centres/radiologie",
+          "locator": "Sections Services & Examens et Contact"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "Déclaration du prestataire, non vérifiée par inventaire administratif ou visite. Autorisation administrative et fonctionnement actuel inconnus.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PRIV-P01-MRI",
+      "facility_id": "PRIV-P01",
+      "facility_name": "Clinique Pasteur Tunis",
+      "aliases": [
+        "Clinique Pasteur Tunis"
+      ],
+      "facility_type": "clinique",
+      "sector": "private",
+      "governorate": "Tunis",
+      "governorate_code": "TN-11",
+      "delegation": null,
+      "address": "Centre Urbain Nord, 1003/1082 Tunis",
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "MRI",
+      "equipment_count_current_verified": null,
+      "reported_counts": [],
+      "authorization_status": "unknown",
+      "installation_status": "declared_undated",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "installed_declared_undated"
+      ],
+      "observation_dates": [],
+      "observation_periods": [],
+      "source_dates": [],
+      "documentary_confidence": "verified_document",
+      "current_presence_confidence": "probable",
+      "evidence_ids": [
+        "PRIV-P01-MRI"
+      ],
+      "source_urls": [
+        "https://cliniquepasteurtunis.com/fr/centres/radiologie"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PRIV-P01-MRI",
+          "url": "https://cliniquepasteurtunis.com/fr/centres/radiologie",
+          "locator": "Sections Services & Examens et Contact"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "Déclaration du prestataire, non vérifiée par inventaire administratif ou visite. Autorisation administrative et fonctionnement actuel inconnus.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PRIV-P02-CT",
+      "facility_id": "PRIV-P02",
+      "facility_name": "Clinique Beau Séjour",
+      "aliases": [
+        "Clinique Beau Séjour"
+      ],
+      "facility_type": "clinique",
+      "sector": "private",
+      "governorate": "Ben Arous",
+      "governorate_code": "TN-13",
+      "delegation": "Mégrine",
+      "address": "Route nationale 1, 2033 Mégrine, Ben Arous",
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "CT",
+      "equipment_count_current_verified": null,
+      "reported_counts": [],
+      "authorization_status": "unknown",
+      "installation_status": "declared_undated",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "installed_declared_undated"
+      ],
+      "observation_dates": [],
+      "observation_periods": [],
+      "source_dates": [],
+      "documentary_confidence": "verified_document",
+      "current_presence_confidence": "probable",
+      "evidence_ids": [
+        "PRIV-P02-CT"
+      ],
+      "source_urls": [
+        "https://www.cliniquebeausejour.tn/?page_id=9743"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PRIV-P02-CT",
+          "url": "https://www.cliniquebeausejour.tn/?page_id=9743",
+          "locator": "Unité d’Imagerie Médicale"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "Déclaration du prestataire, non vérifiée par inventaire administratif ou visite. Autorisation administrative et fonctionnement actuel inconnus.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PRIV-P02-MRI",
+      "facility_id": "PRIV-P02",
+      "facility_name": "Clinique Beau Séjour",
+      "aliases": [
+        "Clinique Beau Séjour"
+      ],
+      "facility_type": "clinique",
+      "sector": "private",
+      "governorate": "Ben Arous",
+      "governorate_code": "TN-13",
+      "delegation": "Mégrine",
+      "address": "Route nationale 1, 2033 Mégrine, Ben Arous",
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "MRI",
+      "equipment_count_current_verified": null,
+      "reported_counts": [],
+      "authorization_status": "unknown",
+      "installation_status": "declared_undated",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "installed_declared_undated"
+      ],
+      "observation_dates": [],
+      "observation_periods": [],
+      "source_dates": [],
+      "documentary_confidence": "verified_document",
+      "current_presence_confidence": "probable",
+      "evidence_ids": [
+        "PRIV-P02-MRI"
+      ],
+      "source_urls": [
+        "https://www.cliniquebeausejour.tn/?page_id=9743"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PRIV-P02-MRI",
+          "url": "https://www.cliniquebeausejour.tn/?page_id=9743",
+          "locator": "Unité d’Imagerie Médicale"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "Déclaration du prestataire, non vérifiée par inventaire administratif ou visite. Autorisation administrative et fonctionnement actuel inconnus.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PRIV-P03-CT",
+      "facility_id": "PRIV-P03",
+      "facility_name": "Polyclinique El Farabi",
+      "aliases": [
+        "Polyclinique El Farabi"
+      ],
+      "facility_type": "polyclinique",
+      "sector": "private",
+      "governorate": null,
+      "governorate_code": null,
+      "delegation": null,
+      "address": "Rue Cheikh Mohamed Zaghouani, El Menzah 6, 1004 Tunis",
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "CT",
+      "equipment_count_current_verified": null,
+      "reported_counts": [],
+      "authorization_status": "unknown",
+      "installation_status": "declared_undated",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "installed_declared_undated"
+      ],
+      "observation_dates": [],
+      "observation_periods": [],
+      "source_dates": [],
+      "documentary_confidence": "probable",
+      "current_presence_confidence": "probable",
+      "evidence_ids": [
+        "PRIV-P03-CT"
+      ],
+      "source_urls": [
+        "https://www.cliniquefarabi.com/radiologie-et-imagerie-medicale-numerise/"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PRIV-P03-CT",
+          "url": "https://www.cliniquefarabi.com/radiologie-et-imagerie-medicale-numerise/",
+          "locator": "Radiologie et imagerie médicale numérisé"
+        }
+      ],
+      "conflict_ids": [
+        "PRIV-C02"
+      ],
+      "uncertainty": "Déclaration du prestataire, non vérifiée par inventaire administratif ou visite. Autorisation administrative et fonctionnement actuel inconnus. Gouvernorat non assigné : le site indique Tunis dans l’adresse, tandis que des annuaires placent El Menzah6/Ariana. Géoréférencement à arbitrer.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PRIV-P03-MRI",
+      "facility_id": "PRIV-P03",
+      "facility_name": "Polyclinique El Farabi",
+      "aliases": [
+        "Polyclinique El Farabi"
+      ],
+      "facility_type": "polyclinique",
+      "sector": "private",
+      "governorate": null,
+      "governorate_code": null,
+      "delegation": null,
+      "address": "Rue Cheikh Mohamed Zaghouani, El Menzah 6, 1004 Tunis",
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "MRI",
+      "equipment_count_current_verified": null,
+      "reported_counts": [],
+      "authorization_status": "unknown",
+      "installation_status": "declared_undated",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "installed_declared_undated"
+      ],
+      "observation_dates": [],
+      "observation_periods": [],
+      "source_dates": [],
+      "documentary_confidence": "probable",
+      "current_presence_confidence": "probable",
+      "evidence_ids": [
+        "PRIV-P03-MRI"
+      ],
+      "source_urls": [
+        "https://www.cliniquefarabi.com/radiologie-et-imagerie-medicale-numerise/"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PRIV-P03-MRI",
+          "url": "https://www.cliniquefarabi.com/radiologie-et-imagerie-medicale-numerise/",
+          "locator": "Radiologie et imagerie médicale numérisé"
+        }
+      ],
+      "conflict_ids": [
+        "PRIV-C02"
+      ],
+      "uncertainty": "Déclaration du prestataire, non vérifiée par inventaire administratif ou visite. Autorisation administrative et fonctionnement actuel inconnus. Gouvernorat non assigné : le site indique Tunis dans l’adresse, tandis que des annuaires placent El Menzah6/Ariana. Géoréférencement à arbitrer.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PRIV-P04-CT",
+      "facility_id": "PRIV-P04",
+      "facility_name": "Clinique La Rose",
+      "aliases": [
+        "Clinique La Rose"
+      ],
+      "facility_type": "clinique",
+      "sector": "private",
+      "governorate": "Tunis",
+      "governorate_code": "TN-11",
+      "delegation": null,
+      "address": "Immeuble La Rose, avenue de la Bourse, Les Jardins du Lac, Tunis 1053",
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "CT",
+      "equipment_count_current_verified": null,
+      "reported_counts": [],
+      "authorization_status": "unknown",
+      "installation_status": "declared_undated",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "installed_declared_undated"
+      ],
+      "observation_dates": [],
+      "observation_periods": [],
+      "source_dates": [],
+      "documentary_confidence": "verified_document",
+      "current_presence_confidence": "probable",
+      "evidence_ids": [
+        "PRIV-P04-CT"
+      ],
+      "source_urls": [
+        "https://clinique-larose.com/imagerie-medicale/"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PRIV-P04-CT",
+          "url": "https://clinique-larose.com/imagerie-medicale/",
+          "locator": "Notre centre d’imagerie"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "Déclaration du prestataire, non vérifiée par inventaire administratif ou visite. Autorisation administrative et fonctionnement actuel inconnus.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PRIV-P04-MRI",
+      "facility_id": "PRIV-P04",
+      "facility_name": "Clinique La Rose",
+      "aliases": [
+        "Clinique La Rose"
+      ],
+      "facility_type": "clinique",
+      "sector": "private",
+      "governorate": "Tunis",
+      "governorate_code": "TN-11",
+      "delegation": null,
+      "address": "Immeuble La Rose, avenue de la Bourse, Les Jardins du Lac, Tunis 1053",
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "MRI",
+      "equipment_count_current_verified": null,
+      "reported_counts": [],
+      "authorization_status": "unknown",
+      "installation_status": "declared_undated",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "installed_declared_undated"
+      ],
+      "observation_dates": [],
+      "observation_periods": [],
+      "source_dates": [],
+      "documentary_confidence": "verified_document",
+      "current_presence_confidence": "probable",
+      "evidence_ids": [
+        "PRIV-P04-MRI"
+      ],
+      "source_urls": [
+        "https://clinique-larose.com/imagerie-medicale/"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PRIV-P04-MRI",
+          "url": "https://clinique-larose.com/imagerie-medicale/",
+          "locator": "Notre centre d’imagerie"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "Déclaration du prestataire, non vérifiée par inventaire administratif ou visite. Autorisation administrative et fonctionnement actuel inconnus.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PRIV-P05-CT",
+      "facility_id": "PRIV-P05",
+      "facility_name": "Clinique Essalem",
+      "aliases": [
+        "Clinique Essalem"
+      ],
+      "facility_type": "clinique",
+      "sector": "private",
+      "governorate": "Sousse",
+      "governorate_code": "TN-51",
+      "delegation": null,
+      "address": "Place du Maghreb Arabe, 4000 Sousse",
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "CT",
+      "equipment_count_current_verified": null,
+      "reported_counts": [
+        {
+          "evidence_id": "PRIV-P05-CT",
+          "value": 1,
+          "scope": "nombre explicitement décrit dans la source ; non certifié exhaustif",
+          "source_date": null
+        }
+      ],
+      "authorization_status": "unknown",
+      "installation_status": "declared_undated",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "installed_declared_undated"
+      ],
+      "observation_dates": [],
+      "observation_periods": [],
+      "source_dates": [],
+      "documentary_confidence": "probable",
+      "current_presence_confidence": "probable",
+      "evidence_ids": [
+        "PRIV-P05-CT"
+      ],
+      "source_urls": [
+        "https://clinique-essalem.com/presentation"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PRIV-P05-CT",
+          "url": "https://clinique-essalem.com/presentation",
+          "locator": "Présentation, plateau technique"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "Déclaration du prestataire, non vérifiée par inventaire administratif ou visite. Autorisation administrative et fonctionnement actuel inconnus.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PRIV-P05-MRI",
+      "facility_id": "PRIV-P05",
+      "facility_name": "Clinique Essalem",
+      "aliases": [
+        "Clinique Essalem"
+      ],
+      "facility_type": "clinique",
+      "sector": "private",
+      "governorate": "Sousse",
+      "governorate_code": "TN-51",
+      "delegation": null,
+      "address": "Place du Maghreb Arabe, 4000 Sousse",
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "MRI",
+      "equipment_count_current_verified": null,
+      "reported_counts": [
+        {
+          "evidence_id": "PRIV-P05-MRI",
+          "value": 1,
+          "scope": "nombre explicitement décrit dans la source ; non certifié exhaustif",
+          "source_date": null
+        }
+      ],
+      "authorization_status": "unknown",
+      "installation_status": "declared_undated",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "installed_declared_undated"
+      ],
+      "observation_dates": [],
+      "observation_periods": [],
+      "source_dates": [],
+      "documentary_confidence": "probable",
+      "current_presence_confidence": "probable",
+      "evidence_ids": [
+        "PRIV-P05-MRI"
+      ],
+      "source_urls": [
+        "https://clinique-essalem.com/presentation"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PRIV-P05-MRI",
+          "url": "https://clinique-essalem.com/presentation",
+          "locator": "Présentation, plateau technique"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "Déclaration du prestataire, non vérifiée par inventaire administratif ou visite. Autorisation administrative et fonctionnement actuel inconnus.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PRIV-P06-CT",
+      "facility_id": "PRIV-P06",
+      "facility_name": "Polyclinique Arij Midoun Djerba",
+      "aliases": [
+        "Polyclinique Arij Midoun Djerba"
+      ],
+      "facility_type": "polyclinique",
+      "sector": "private",
+      "governorate": "Médenine",
+      "governorate_code": "TN-82",
+      "delegation": "Djerba-Midoun",
+      "address": "Avenue de l’environnement, Midoun Djerba",
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "CT",
+      "equipment_count_current_verified": null,
+      "reported_counts": [
+        {
+          "evidence_id": "PRIV-P06-CT",
+          "value": 1,
+          "scope": "nombre explicitement décrit dans la source ; non certifié exhaustif",
+          "source_date": null
+        }
+      ],
+      "authorization_status": "unknown",
+      "installation_status": "declared_undated",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "installed_declared_undated"
+      ],
+      "observation_dates": [],
+      "observation_periods": [],
+      "source_dates": [],
+      "documentary_confidence": "verified_document",
+      "current_presence_confidence": "probable",
+      "evidence_ids": [
+        "PRIV-P06-CT"
+      ],
+      "source_urls": [
+        "https://www.clinique-arij.com/services/"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PRIV-P06-CT",
+          "url": "https://www.clinique-arij.com/services/",
+          "locator": "Centre de Radiologie & Scanner"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "Déclaration du prestataire, non vérifiée par inventaire administratif ou visite. Autorisation administrative et fonctionnement actuel inconnus.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PRIV-P07-CT",
+      "facility_id": "PRIV-P07",
+      "facility_name": "Clinique Amen Béja",
+      "aliases": [
+        "Clinique Amen Béja"
+      ],
+      "facility_type": "clinique",
+      "sector": "private",
+      "governorate": "Béja",
+      "governorate_code": "TN-31",
+      "delegation": null,
+      "address": "Avenue / boulevard de l’environnement, Béja 9000",
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "CT",
+      "equipment_count_current_verified": null,
+      "reported_counts": [
+        {
+          "evidence_id": "PRIV-P07-CT",
+          "value": 1,
+          "scope": "nombre explicitement décrit dans la source ; non certifié exhaustif",
+          "source_date": null
+        }
+      ],
+      "authorization_status": "unknown",
+      "installation_status": "declared_undated",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "installed_declared_undated"
+      ],
+      "observation_dates": [],
+      "observation_periods": [],
+      "source_dates": [],
+      "documentary_confidence": "probable",
+      "current_presence_confidence": "probable",
+      "evidence_ids": [
+        "PRIV-P07-CT"
+      ],
+      "source_urls": [
+        "https://beja.amensante.com/Fr/imagerie-medicale_11_76"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PRIV-P07-CT",
+          "url": "https://beja.amensante.com/Fr/imagerie-medicale_11_76",
+          "locator": "La clinique est dotée de"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "Déclaration du prestataire, non vérifiée par inventaire administratif ou visite. Autorisation administrative et fonctionnement actuel inconnus.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PRIV-P08-CT",
+      "facility_id": "PRIV-P08",
+      "facility_name": "Polyclinique Cardiologique de Nabeul / Clinique Amen Nabeul",
+      "aliases": [
+        "Polyclinique Cardiologique de Nabeul / Clinique Amen Nabeul"
+      ],
+      "facility_type": "polyclinique",
+      "sector": "private",
+      "governorate": "Nabeul",
+      "governorate_code": "TN-21",
+      "delegation": null,
+      "address": "Avenue Hédi Nouira, Nabeul 8000",
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "CT",
+      "equipment_count_current_verified": null,
+      "reported_counts": [
+        {
+          "evidence_id": "PRIV-P08-CT",
+          "value": 1,
+          "scope": "nombre explicitement décrit dans la source ; non certifié exhaustif",
+          "source_date": null
+        }
+      ],
+      "authorization_status": "unknown",
+      "installation_status": "declared_undated",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "installed_declared_undated"
+      ],
+      "observation_dates": [],
+      "observation_periods": [],
+      "source_dates": [],
+      "documentary_confidence": "verified_document",
+      "current_presence_confidence": "probable",
+      "evidence_ids": [
+        "PRIV-P08-CT",
+        "PRIV-P08-CT-legacy"
+      ],
+      "source_urls": [
+        "https://nabeul.amensante.com/Fr/imagerie-medicale_11_21",
+        "https://www.polycardionabeul.com/prestations/services/imagerie-medicale/"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PRIV-P08-CT",
+          "url": "https://www.polycardionabeul.com/prestations/services/imagerie-medicale/",
+          "locator": "Service d’Imagerie Médicale"
+        },
+        {
+          "evidence_id": "PRIV-P08-CT-legacy",
+          "url": "https://nabeul.amensante.com/Fr/imagerie-medicale_11_21",
+          "locator": "Gamme d’équipements"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "Déclaration du prestataire, non vérifiée par inventaire administratif ou visite. Autorisation administrative et fonctionnement actuel inconnus. | Déclaration du prestataire, non vérifiée par inventaire administratif ou visite. Autorisation administrative et fonctionnement actuel inconnus. Ancienne présentation Amen Santé, même adresse et téléphone que Polyclinique Cardiologique de Nabeul ; ne pas additionner les deux preuves.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PRIV-P08-MRI",
+      "facility_id": "PRIV-P08",
+      "facility_name": "Polyclinique Cardiologique de Nabeul / Clinique Amen Nabeul",
+      "aliases": [
+        "Polyclinique Cardiologique de Nabeul / Clinique Amen Nabeul"
+      ],
+      "facility_type": "polyclinique",
+      "sector": "private",
+      "governorate": "Nabeul",
+      "governorate_code": "TN-21",
+      "delegation": null,
+      "address": "Avenue Hédi Nouira, Nabeul 8000",
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "MRI",
+      "equipment_count_current_verified": null,
+      "reported_counts": [
+        {
+          "evidence_id": "PRIV-P08-MRI",
+          "value": 1,
+          "scope": "nombre explicitement décrit dans la source ; non certifié exhaustif",
+          "source_date": null
+        },
+        {
+          "evidence_id": "PRIV-P08-MRI-legacy",
+          "value": 1,
+          "scope": "nombre explicitement décrit dans la source ; non certifié exhaustif",
+          "source_date": null
+        }
+      ],
+      "authorization_status": "unknown",
+      "installation_status": "declared_undated",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "installed_declared_undated"
+      ],
+      "observation_dates": [],
+      "observation_periods": [],
+      "source_dates": [],
+      "documentary_confidence": "verified_document",
+      "current_presence_confidence": "probable",
+      "evidence_ids": [
+        "PRIV-P08-MRI",
+        "PRIV-P08-MRI-legacy"
+      ],
+      "source_urls": [
+        "https://nabeul.amensante.com/Fr/imagerie-medicale_11_21",
+        "https://www.polycardionabeul.com/prestations/services/imagerie-medicale/"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PRIV-P08-MRI",
+          "url": "https://www.polycardionabeul.com/prestations/services/imagerie-medicale/",
+          "locator": "Service d’Imagerie Médicale"
+        },
+        {
+          "evidence_id": "PRIV-P08-MRI-legacy",
+          "url": "https://nabeul.amensante.com/Fr/imagerie-medicale_11_21",
+          "locator": "Gamme d’équipements"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "Déclaration du prestataire, non vérifiée par inventaire administratif ou visite. Autorisation administrative et fonctionnement actuel inconnus. | Déclaration du prestataire, non vérifiée par inventaire administratif ou visite. Autorisation administrative et fonctionnement actuel inconnus. Ancienne présentation Amen Santé, même adresse et téléphone que Polyclinique Cardiologique de Nabeul ; ne pas additionner les deux preuves.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PRIV-P09-CT",
+      "facility_id": "PRIV-P09",
+      "facility_name": "Centre d’Imagerie Médicale Mongi Slim (CIMS)",
+      "aliases": [
+        "Centre d’Imagerie Médicale Mongi Slim (CIMS)"
+      ],
+      "facility_type": "centre_imagerie",
+      "sector": null,
+      "governorate": "Bizerte",
+      "governorate_code": "TN-23",
+      "delegation": "Menzel Bourguiba",
+      "address": "15 avenue Mongi Slim, 7050 Menzel Bourguiba",
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "CT",
+      "equipment_count_current_verified": null,
+      "reported_counts": [],
+      "authorization_status": "unknown",
+      "installation_status": "declared_undated",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "installed_declared_undated"
+      ],
+      "observation_dates": [],
+      "observation_periods": [],
+      "source_dates": [],
+      "documentary_confidence": "verified_document",
+      "current_presence_confidence": "probable",
+      "evidence_ids": [
+        "PRIV-P09-CT"
+      ],
+      "source_urls": [
+        "https://www.cims-md.com/fr/centre"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PRIV-P09-CT",
+          "url": "https://www.cims-md.com/fr/centre",
+          "locator": "Le centre ; plateau technique ; nous rendre visite"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "Déclaration du prestataire, non vérifiée par inventaire administratif ou visite. Autorisation administrative et fonctionnement actuel inconnus. Le centre est présenté comme dirigé par un médecin nommé mais son statut public/privé n’est pas explicitement documenté dans la source ; secteur laissé null, candidat privé à confirmer.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PRIV-P09-MRI",
+      "facility_id": "PRIV-P09",
+      "facility_name": "Centre d’Imagerie Médicale Mongi Slim (CIMS)",
+      "aliases": [
+        "Centre d’Imagerie Médicale Mongi Slim (CIMS)"
+      ],
+      "facility_type": "centre_imagerie",
+      "sector": null,
+      "governorate": "Bizerte",
+      "governorate_code": "TN-23",
+      "delegation": "Menzel Bourguiba",
+      "address": "15 avenue Mongi Slim, 7050 Menzel Bourguiba",
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "MRI",
+      "equipment_count_current_verified": null,
+      "reported_counts": [],
+      "authorization_status": "unknown",
+      "installation_status": "declared_undated",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "installed_declared_undated"
+      ],
+      "observation_dates": [],
+      "observation_periods": [],
+      "source_dates": [],
+      "documentary_confidence": "verified_document",
+      "current_presence_confidence": "probable",
+      "evidence_ids": [
+        "PRIV-P09-MRI"
+      ],
+      "source_urls": [
+        "https://www.cims-md.com/fr/centre"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PRIV-P09-MRI",
+          "url": "https://www.cims-md.com/fr/centre",
+          "locator": "Le centre ; plateau technique ; nous rendre visite"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "Déclaration du prestataire, non vérifiée par inventaire administratif ou visite. Autorisation administrative et fonctionnement actuel inconnus. Le centre est présenté comme dirigé par un médecin nommé mais son statut public/privé n’est pas explicitement documenté dans la source ; secteur laissé null, candidat privé à confirmer.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PRIV-P10-CT",
+      "facility_id": "PRIV-P10",
+      "facility_name": "Polyclinique Sfax Medina",
+      "aliases": [
+        "Polyclinique Sfax Medina"
+      ],
+      "facility_type": "polyclinique",
+      "sector": "private",
+      "governorate": "Sfax",
+      "governorate_code": "TN-61",
+      "delegation": null,
+      "address": "Avenue de la Liberté, rue Ahmed Aloulou, 3027 Sfax",
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "CT",
+      "equipment_count_current_verified": null,
+      "reported_counts": [],
+      "authorization_status": "unknown",
+      "installation_status": "declared_undated",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "installed_declared_undated"
+      ],
+      "observation_dates": [],
+      "observation_periods": [],
+      "source_dates": [],
+      "documentary_confidence": "verified_document",
+      "current_presence_confidence": "probable",
+      "evidence_ids": [
+        "PRIV-P10-CT"
+      ],
+      "source_urls": [
+        "https://polyclinique-medina.com/sejour-hospitalisation/"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PRIV-P10-CT",
+          "url": "https://polyclinique-medina.com/sejour-hospitalisation/",
+          "locator": "03. Imagerie Médicale"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "Déclaration du prestataire, non vérifiée par inventaire administratif ou visite. Autorisation administrative et fonctionnement actuel inconnus.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PRIV-P10-MRI",
+      "facility_id": "PRIV-P10",
+      "facility_name": "Polyclinique Sfax Medina",
+      "aliases": [
+        "Polyclinique Sfax Medina"
+      ],
+      "facility_type": "polyclinique",
+      "sector": "private",
+      "governorate": "Sfax",
+      "governorate_code": "TN-61",
+      "delegation": null,
+      "address": "Avenue de la Liberté, rue Ahmed Aloulou, 3027 Sfax",
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "MRI",
+      "equipment_count_current_verified": null,
+      "reported_counts": [],
+      "authorization_status": "unknown",
+      "installation_status": "declared_undated",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "installed_declared_undated"
+      ],
+      "observation_dates": [],
+      "observation_periods": [],
+      "source_dates": [],
+      "documentary_confidence": "verified_document",
+      "current_presence_confidence": "probable",
+      "evidence_ids": [
+        "PRIV-P10-MRI"
+      ],
+      "source_urls": [
+        "https://polyclinique-medina.com/sejour-hospitalisation/"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PRIV-P10-MRI",
+          "url": "https://polyclinique-medina.com/sejour-hospitalisation/",
+          "locator": "03. Imagerie Médicale"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "Déclaration du prestataire, non vérifiée par inventaire administratif ou visite. Autorisation administrative et fonctionnement actuel inconnus.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PRIV-P11-CT",
+      "facility_id": "PRIV-P11",
+      "facility_name": "Clinique Les Oliviers",
+      "aliases": [
+        "Clinique Les Oliviers"
+      ],
+      "facility_type": "clinique",
+      "sector": "private",
+      "governorate": "Sousse",
+      "governorate_code": "TN-51",
+      "delegation": null,
+      "address": "Boulevard du 14 Janvier, Sousse 4051",
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "CT",
+      "equipment_count_current_verified": null,
+      "reported_counts": [],
+      "authorization_status": "unknown",
+      "installation_status": "declared_undated",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "installed_declared_undated"
+      ],
+      "observation_dates": [],
+      "observation_periods": [],
+      "source_dates": [],
+      "documentary_confidence": "verified_document",
+      "current_presence_confidence": "probable",
+      "evidence_ids": [
+        "PRIV-P11-CT"
+      ],
+      "source_urls": [
+        "https://www.cliniquelesoliviers.net/fr/centre-d%E2%80%99imagerie-m%C3%A9dicale"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PRIV-P11-CT",
+          "url": "https://www.cliniquelesoliviers.net/fr/centre-d%E2%80%99imagerie-m%C3%A9dicale",
+          "locator": "Plateau technique"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "Déclaration du prestataire, non vérifiée par inventaire administratif ou visite. Autorisation administrative et fonctionnement actuel inconnus. Contexte éditorial ancien, date de validité inconnue.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PRIV-P11-MRI",
+      "facility_id": "PRIV-P11",
+      "facility_name": "Clinique Les Oliviers",
+      "aliases": [
+        "Clinique Les Oliviers"
+      ],
+      "facility_type": "clinique",
+      "sector": "private",
+      "governorate": "Sousse",
+      "governorate_code": "TN-51",
+      "delegation": null,
+      "address": "Boulevard du 14 Janvier, Sousse 4051",
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "MRI",
+      "equipment_count_current_verified": null,
+      "reported_counts": [],
+      "authorization_status": "unknown",
+      "installation_status": "declared_undated",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "installed_declared_undated"
+      ],
+      "observation_dates": [],
+      "observation_periods": [],
+      "source_dates": [],
+      "documentary_confidence": "verified_document",
+      "current_presence_confidence": "probable",
+      "evidence_ids": [
+        "PRIV-P11-MRI"
+      ],
+      "source_urls": [
+        "https://www.cliniquelesoliviers.net/fr/centre-d%E2%80%99imagerie-m%C3%A9dicale"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PRIV-P11-MRI",
+          "url": "https://www.cliniquelesoliviers.net/fr/centre-d%E2%80%99imagerie-m%C3%A9dicale",
+          "locator": "Plateau technique"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "Déclaration du prestataire, non vérifiée par inventaire administratif ou visite. Autorisation administrative et fonctionnement actuel inconnus. Contexte éditorial ancien, date de validité inconnue.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PRIV-P12-CT",
+      "facility_id": "PRIV-P12",
+      "facility_name": "Clinique Internationale Hannibal",
+      "aliases": [
+        "Clinique Internationale Hannibal"
+      ],
+      "facility_type": "clinique",
+      "sector": "private",
+      "governorate": "Tunis",
+      "governorate_code": "TN-11",
+      "delegation": null,
+      "address": "Cité Les Pins, Les Berges du Lac II, Tunis",
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "CT",
+      "equipment_count_current_verified": null,
+      "reported_counts": [
+        {
+          "evidence_id": "PRIV-P12-CT",
+          "value": 1,
+          "scope": "nombre explicitement décrit dans la source ; non certifié exhaustif",
+          "source_date": null
+        }
+      ],
+      "authorization_status": "unknown",
+      "installation_status": "declared_undated",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "installed_declared_undated"
+      ],
+      "observation_dates": [],
+      "observation_periods": [],
+      "source_dates": [],
+      "documentary_confidence": "verified_document",
+      "current_presence_confidence": "probable",
+      "evidence_ids": [
+        "PRIV-P12-CT",
+        "PRIV-P12-CT-oncology"
+      ],
+      "source_urls": [
+        "https://www.taoufikhospitalsgroup.com/clinique-hannibal/nos-specialites/cancerologie/",
+        "https://www.taoufikhospitalsgroup.com/clinique-hannibal/nos-specialites/imagerie-medicale/"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PRIV-P12-CT",
+          "url": "https://www.taoufikhospitalsgroup.com/clinique-hannibal/nos-specialites/imagerie-medicale/",
+          "locator": "Le service Radiologie de la CIH comporte 5 unités"
+        },
+        {
+          "evidence_id": "PRIV-P12-CT-oncology",
+          "url": "https://www.taoufikhospitalsgroup.com/clinique-hannibal/nos-specialites/cancerologie/",
+          "locator": "Plateau technique de radiothérapie, accès au service de radiologie"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "Déclaration du prestataire, non vérifiée par inventaire administratif ou visite. Autorisation administrative et fonctionnement actuel inconnus. | Déclaration du prestataire, non vérifiée par inventaire administratif ou visite. Autorisation administrative et fonctionnement actuel inconnus. Deuxième page du même éditeur, donc corroboration interne, pas indépendante. Simulateur de radiothérapie non inclus.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PRIV-P12-MRI",
+      "facility_id": "PRIV-P12",
+      "facility_name": "Clinique Internationale Hannibal",
+      "aliases": [
+        "Clinique Internationale Hannibal"
+      ],
+      "facility_type": "clinique",
+      "sector": "private",
+      "governorate": "Tunis",
+      "governorate_code": "TN-11",
+      "delegation": null,
+      "address": "Cité Les Pins, Les Berges du Lac II, Tunis",
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "MRI",
+      "equipment_count_current_verified": null,
+      "reported_counts": [
+        {
+          "evidence_id": "PRIV-P12-MRI",
+          "value": 1,
+          "scope": "nombre explicitement décrit dans la source ; non certifié exhaustif",
+          "source_date": null
+        }
+      ],
+      "authorization_status": "unknown",
+      "installation_status": "declared_undated",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "installed_declared_undated"
+      ],
+      "observation_dates": [],
+      "observation_periods": [],
+      "source_dates": [],
+      "documentary_confidence": "verified_document",
+      "current_presence_confidence": "probable",
+      "evidence_ids": [
+        "PRIV-P12-MRI",
+        "PRIV-P12-MRI-oncology"
+      ],
+      "source_urls": [
+        "https://www.taoufikhospitalsgroup.com/clinique-hannibal/nos-specialites/cancerologie/",
+        "https://www.taoufikhospitalsgroup.com/clinique-hannibal/nos-specialites/imagerie-medicale/"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PRIV-P12-MRI",
+          "url": "https://www.taoufikhospitalsgroup.com/clinique-hannibal/nos-specialites/imagerie-medicale/",
+          "locator": "Le service Radiologie de la CIH comporte 5 unités"
+        },
+        {
+          "evidence_id": "PRIV-P12-MRI-oncology",
+          "url": "https://www.taoufikhospitalsgroup.com/clinique-hannibal/nos-specialites/cancerologie/",
+          "locator": "Plateau technique de radiothérapie, accès au service de radiologie"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "Déclaration du prestataire, non vérifiée par inventaire administratif ou visite. Autorisation administrative et fonctionnement actuel inconnus. | Déclaration du prestataire, non vérifiée par inventaire administratif ou visite. Autorisation administrative et fonctionnement actuel inconnus. Deuxième page du même éditeur, donc corroboration interne, pas indépendante. Simulateur de radiothérapie non inclus.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PRIV-P13-CT",
+      "facility_id": "PRIV-P13",
+      "facility_name": "Clinique de La Soukra",
+      "aliases": [
+        "Clinique de La Soukra"
+      ],
+      "facility_type": "clinique",
+      "sector": "private",
+      "governorate": "Ariana",
+      "governorate_code": "TN-12",
+      "delegation": "La Soukra",
+      "address": "Rue Cheikh Mohamed Ennaifer, La Soukra",
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "CT",
+      "equipment_count_current_verified": null,
+      "reported_counts": [
+        {
+          "evidence_id": "PRIV-P13-CT",
+          "value": 1,
+          "scope": "nombre explicitement décrit dans la source ; non certifié exhaustif",
+          "source_date": null
+        }
+      ],
+      "authorization_status": "unknown",
+      "installation_status": "declared_undated",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "installed_declared_undated"
+      ],
+      "observation_dates": [],
+      "observation_periods": [],
+      "source_dates": [],
+      "documentary_confidence": "verified_document",
+      "current_presence_confidence": "probable",
+      "evidence_ids": [
+        "PRIV-P13-CT"
+      ],
+      "source_urls": [
+        "https://www.taoufikhospitalsgroup.com/clinique-soukra/nos-specialites/imagerie-medicale/"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PRIV-P13-CT",
+          "url": "https://www.taoufikhospitalsgroup.com/clinique-soukra/nos-specialites/imagerie-medicale/",
+          "locator": "Équipements de l’unité d’imagerie médicale"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "Déclaration du prestataire, non vérifiée par inventaire administratif ou visite. Autorisation administrative et fonctionnement actuel inconnus.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PRIV-P13-MRI",
+      "facility_id": "PRIV-P13",
+      "facility_name": "Clinique de La Soukra",
+      "aliases": [
+        "Clinique de La Soukra"
+      ],
+      "facility_type": "clinique",
+      "sector": "private",
+      "governorate": "Ariana",
+      "governorate_code": "TN-12",
+      "delegation": "La Soukra",
+      "address": "Rue Cheikh Mohamed Ennaifer, La Soukra",
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "MRI",
+      "equipment_count_current_verified": null,
+      "reported_counts": [
+        {
+          "evidence_id": "PRIV-P13-MRI",
+          "value": 1,
+          "scope": "nombre explicitement décrit dans la source ; non certifié exhaustif",
+          "source_date": null
+        }
+      ],
+      "authorization_status": "unknown",
+      "installation_status": "declared_undated",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "installed_declared_undated"
+      ],
+      "observation_dates": [],
+      "observation_periods": [],
+      "source_dates": [],
+      "documentary_confidence": "verified_document",
+      "current_presence_confidence": "probable",
+      "evidence_ids": [
+        "PRIV-P13-MRI"
+      ],
+      "source_urls": [
+        "https://www.taoufikhospitalsgroup.com/clinique-soukra/nos-specialites/imagerie-medicale/"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PRIV-P13-MRI",
+          "url": "https://www.taoufikhospitalsgroup.com/clinique-soukra/nos-specialites/imagerie-medicale/",
+          "locator": "Équipements de l’unité d’imagerie médicale"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "Déclaration du prestataire, non vérifiée par inventaire administratif ou visite. Autorisation administrative et fonctionnement actuel inconnus.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PRIV-P14-CT",
+      "facility_id": "PRIV-P14",
+      "facility_name": "Clinique Ezzahra",
+      "aliases": [
+        "Clinique Ezzahra"
+      ],
+      "facility_type": "clinique",
+      "sector": "private",
+      "governorate": "Ben Arous",
+      "governorate_code": "TN-13",
+      "delegation": "Ezzahra",
+      "address": "Rue Abu El Kacem Ezzahraoui, Ezzahra 2034, Ben Arous",
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "CT",
+      "equipment_count_current_verified": null,
+      "reported_counts": [
+        {
+          "evidence_id": "PRIV-P14-CT",
+          "value": 1,
+          "scope": "nombre explicitement décrit dans la source ; non certifié exhaustif",
+          "source_date": null
+        }
+      ],
+      "authorization_status": "unknown",
+      "installation_status": "declared_undated",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "installed_declared_undated"
+      ],
+      "observation_dates": [],
+      "observation_periods": [],
+      "source_dates": [],
+      "documentary_confidence": "verified_document",
+      "current_presence_confidence": "probable",
+      "evidence_ids": [
+        "PRIV-P14-CT"
+      ],
+      "source_urls": [
+        "https://www.taoufikhospitalsgroup.com/clinique-ezzahra/nos-specialites/imagerie-medicale/"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PRIV-P14-CT",
+          "url": "https://www.taoufikhospitalsgroup.com/clinique-ezzahra/nos-specialites/imagerie-medicale/",
+          "locator": "Imagerie Diagnostique & Interventionnelle"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "Déclaration du prestataire, non vérifiée par inventaire administratif ou visite. Autorisation administrative et fonctionnement actuel inconnus.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PRIV-P14-MRI",
+      "facility_id": "PRIV-P14",
+      "facility_name": "Clinique Ezzahra",
+      "aliases": [
+        "Clinique Ezzahra"
+      ],
+      "facility_type": "clinique",
+      "sector": "private",
+      "governorate": "Ben Arous",
+      "governorate_code": "TN-13",
+      "delegation": "Ezzahra",
+      "address": "Rue Abu El Kacem Ezzahraoui, Ezzahra 2034, Ben Arous",
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "MRI",
+      "equipment_count_current_verified": null,
+      "reported_counts": [
+        {
+          "evidence_id": "PRIV-P14-MRI",
+          "value": 1,
+          "scope": "nombre explicitement décrit dans la source ; non certifié exhaustif",
+          "source_date": null
+        }
+      ],
+      "authorization_status": "unknown",
+      "installation_status": "declared_undated",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "installed_declared_undated"
+      ],
+      "observation_dates": [],
+      "observation_periods": [],
+      "source_dates": [],
+      "documentary_confidence": "verified_document",
+      "current_presence_confidence": "probable",
+      "evidence_ids": [
+        "PRIV-P14-MRI"
+      ],
+      "source_urls": [
+        "https://www.taoufikhospitalsgroup.com/clinique-ezzahra/nos-specialites/imagerie-medicale/"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PRIV-P14-MRI",
+          "url": "https://www.taoufikhospitalsgroup.com/clinique-ezzahra/nos-specialites/imagerie-medicale/",
+          "locator": "Imagerie Diagnostique & Interventionnelle"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "Déclaration du prestataire, non vérifiée par inventaire administratif ou visite. Autorisation administrative et fonctionnement actuel inconnus.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PRIV-P15-CT",
+      "facility_id": "PRIV-P15",
+      "facility_name": "Clinique Taoufik",
+      "aliases": [
+        "Clinique Taoufik"
+      ],
+      "facility_type": "clinique",
+      "sector": "private",
+      "governorate": "Tunis",
+      "governorate_code": "TN-11",
+      "delegation": null,
+      "address": "Boulevard du 7 Novembre, 1002 Tunis Belvédère (autre dénomination : Boulevard Mohamed Bouazizi)",
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "CT",
+      "equipment_count_current_verified": null,
+      "reported_counts": [
+        {
+          "evidence_id": "PRIV-P15-CT",
+          "value": 1,
+          "scope": "nombre explicitement décrit dans la source ; non certifié exhaustif",
+          "source_date": null
+        }
+      ],
+      "authorization_status": "unknown",
+      "installation_status": "declared_undated",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "installed_declared_undated"
+      ],
+      "observation_dates": [],
+      "observation_periods": [],
+      "source_dates": [],
+      "documentary_confidence": "verified_document",
+      "current_presence_confidence": "probable",
+      "evidence_ids": [
+        "PRIV-P15-CT"
+      ],
+      "source_urls": [
+        "https://www.taoufikhospitalsgroup.com/clinique-taoufik/nos-specialites/imagerie-medicale/"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PRIV-P15-CT",
+          "url": "https://www.taoufikhospitalsgroup.com/clinique-taoufik/nos-specialites/imagerie-medicale/",
+          "locator": "Nos plus, IRM et scanner"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "Déclaration du prestataire, non vérifiée par inventaire administratif ou visite. Autorisation administrative et fonctionnement actuel inconnus.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PRIV-P15-MRI",
+      "facility_id": "PRIV-P15",
+      "facility_name": "Clinique Taoufik",
+      "aliases": [
+        "Clinique Taoufik"
+      ],
+      "facility_type": "clinique",
+      "sector": "private",
+      "governorate": "Tunis",
+      "governorate_code": "TN-11",
+      "delegation": null,
+      "address": "Boulevard du 7 Novembre, 1002 Tunis Belvédère (autre dénomination : Boulevard Mohamed Bouazizi)",
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "MRI",
+      "equipment_count_current_verified": null,
+      "reported_counts": [
+        {
+          "evidence_id": "PRIV-P15-MRI",
+          "value": 1,
+          "scope": "nombre explicitement décrit dans la source ; non certifié exhaustif",
+          "source_date": null
+        }
+      ],
+      "authorization_status": "unknown",
+      "installation_status": "declared_undated",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "installed_declared_undated"
+      ],
+      "observation_dates": [],
+      "observation_periods": [],
+      "source_dates": [],
+      "documentary_confidence": "verified_document",
+      "current_presence_confidence": "probable",
+      "evidence_ids": [
+        "PRIV-P15-MRI"
+      ],
+      "source_urls": [
+        "https://www.taoufikhospitalsgroup.com/clinique-taoufik/nos-specialites/imagerie-medicale/"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PRIV-P15-MRI",
+          "url": "https://www.taoufikhospitalsgroup.com/clinique-taoufik/nos-specialites/imagerie-medicale/",
+          "locator": "Nos plus, IRM et scanner"
+        }
+      ],
+      "conflict_ids": [],
+      "uncertainty": "Déclaration du prestataire, non vérifiée par inventaire administratif ou visite. Autorisation administrative et fonctionnement actuel inconnus.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PRIV-P16-CT",
+      "facility_id": "PRIV-P16",
+      "facility_name": "Polyclinique Bon Secours",
+      "aliases": [
+        "Polyclinique Bon Secours"
+      ],
+      "facility_type": "polyclinique",
+      "sector": "private",
+      "governorate": "Gabès",
+      "governorate_code": "TN-81",
+      "delegation": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "CT",
+      "equipment_count_current_verified": null,
+      "reported_counts": [
+        {
+          "evidence_id": "PRIV-P16-CT",
+          "value": 1,
+          "scope": "nombre explicitement décrit dans la source ; non certifié exhaustif",
+          "source_date": "2019-03-28"
+        }
+      ],
+      "authorization_status": "unknown",
+      "installation_status": "not_established",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "historical_mention"
+      ],
+      "observation_dates": [],
+      "observation_periods": [],
+      "source_dates": [
+        "2019-03-28"
+      ],
+      "documentary_confidence": "verified_document",
+      "current_presence_confidence": "unknown",
+      "evidence_ids": [
+        "PRIV-P16-CT"
+      ],
+      "source_urls": [
+        "https://www.polycliniquebonsecours.com/centre-dimagerie-medicale/"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PRIV-P16-CT",
+          "url": "https://www.polycliniquebonsecours.com/centre-dimagerie-medicale/",
+          "locator": "Blog, Centre d’imagerie médicale, liste des équipements"
+        }
+      ],
+      "conflict_ids": [
+        "PRIV-C01"
+      ],
+      "uncertainty": "Déclaration du prestataire, non vérifiée par inventaire administratif ou visite. Autorisation administrative et fonctionnement actuel inconnus. Page publiée en2019 ; adresses contradictoires sur le propre site (6,10,12 avenue Mongi Slim), adresse consolidée laissée inconnue.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    },
+    {
+      "id": "PRIV-P16-MRI",
+      "facility_id": "PRIV-P16",
+      "facility_name": "Polyclinique Bon Secours",
+      "aliases": [
+        "Polyclinique Bon Secours"
+      ],
+      "facility_type": "polyclinique",
+      "sector": "private",
+      "governorate": "Gabès",
+      "governorate_code": "TN-81",
+      "delegation": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "equipment_type": "MRI",
+      "equipment_count_current_verified": null,
+      "reported_counts": [
+        {
+          "evidence_id": "PRIV-P16-MRI",
+          "value": 1,
+          "scope": "nombre explicitement décrit dans la source ; non certifié exhaustif",
+          "source_date": "2019-03-28"
+        }
+      ],
+      "authorization_status": "unknown",
+      "installation_status": "not_established",
+      "functional_status_current": "unknown",
+      "evidence_statuses": [
+        "historical_mention"
+      ],
+      "observation_dates": [],
+      "observation_periods": [],
+      "source_dates": [
+        "2019-03-28"
+      ],
+      "documentary_confidence": "verified_document",
+      "current_presence_confidence": "unknown",
+      "evidence_ids": [
+        "PRIV-P16-MRI"
+      ],
+      "source_urls": [
+        "https://www.polycliniquebonsecours.com/centre-dimagerie-medicale/"
+      ],
+      "source_references": [
+        {
+          "evidence_id": "PRIV-P16-MRI",
+          "url": "https://www.polycliniquebonsecours.com/centre-dimagerie-medicale/",
+          "locator": "Blog, Centre d’imagerie médicale, liste des équipements"
+        }
+      ],
+      "conflict_ids": [
+        "PRIV-C01"
+      ],
+      "uncertainty": "Déclaration du prestataire, non vérifiée par inventaire administratif ou visite. Autorisation administrative et fonctionnement actuel inconnus. Page publiée en2019 ; adresses contradictoires sur le propre site (6,10,12 avenue Mongi Slim), adresse consolidée laissée inconnue.",
+      "eligible_for_current_equipment_count": false,
+      "eligible_for_point_map": false,
+      "consulted_on": "2026-11-01",
+      "is_demo": false
+    }
+  ],
+  "warning": "Corpus documentaire, non directement importable dans le MVP quantifié. null signifie inconnu. Les mentions de projets ne sont pas des appareils installés."
+}

@@ -1,0 +1,14 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const read = async file => JSON.parse((await fs.readFile(path.join(root, file), 'utf8')).replace(/^\uFEFF/, ''));
+const dataset = await read('public/data/inventory2024.json');
+const governorates = await read('public/data/governorates.json');
+if (dataset.is_demo !== false) throw new Error('Aucune démonstration ne peut être publiée.');
+const literal = value => "'" + JSON.stringify(value).replaceAll("'", "''") + "'::jsonb";
+const schema = await fs.readFile(path.join(root, 'supabase/migrations/202611020001_published_snapshots.sql'), 'utf8');
+const seed = `-- Generated from the reviewed local snapshot. Retains every uncertainty label.\nbegin;\ninsert into public.atlas_snapshots (id,dataset,governorates,published)\nvalues ('inventory2024',${literal(dataset)},${literal(governorates)},true)\non conflict (id) do update set dataset=excluded.dataset, governorates=excluded.governorates, published=excluded.published, updated_at=now();\ncommit;\n`;
+await fs.writeFile(path.join(root, 'supabase/seed.sql'), seed);
+await fs.writeFile(path.join(root, 'supabase/install.sql'), schema + '\n' + seed);
+console.log(`SQL ready: ${dataset.territorial_counts.length} territorial cells, ${dataset.populations.length} populations, ${dataset.facility_evidence.length} evidence records.`);

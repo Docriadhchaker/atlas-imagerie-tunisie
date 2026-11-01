@@ -1,6 +1,10 @@
 # Publication de l’atlas
 
-Dépôt : `Docriadhchaker/atlas-imagerie-tunisie`. Domaine choisi : `atlas.riadhchaker.com`.
+Dépôt : https://github.com/Docriadhchaker/atlas-imagerie-tunisie
+
+Domaine : https://atlas.riadhchaker.com
+
+Le CNAME `atlas` est configuré chez Namecheap vers `docriadhchaker.github.io`. Le domaine principal et `guide` conservent leurs enregistrements. Les trois variables GitHub sont configurées ; `PAGES_BASE_PATH=/`. Le certificat HTTPS est géré par GitHub Pages.
 
 ## GitHub Pages
 
@@ -17,6 +21,8 @@ Variables de dépôt (Settings → Secrets and variables → Actions → Variabl
 Sans configuration Supabase, l’application utilise le snapshot JSON versionné. Avec une configuration complète, les échecs Supabase sont affichés explicitement, sans substitution silencieuse. Une clé secrète n’est jamais autorisée.
 
 ## Supabase
+
+Installation retenue : projet existant `wxwnfsazykszohtjcjhg`, table dédiée `atlas_snapshots`. Les tables et politiques du guide ne sont pas concernées. Aucun nouveau mot de passe ni abonnement n’est créé.
 
 Pour ce MVP, `atlas_snapshots` conserve une publication JSON atomique : chiffres, provenance, états de vérification et gouvernorats restent cohérents. Ce choix facilite la migration des fichiers locaux. `supabase/schema.sql` reste une proposition de normalisation ultérieure et ne doit pas être exécuté pour ce déploiement.
 

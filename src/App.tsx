@@ -44,6 +44,7 @@ export default function App() {
   const [selectedSite, setSelectedSite] = useState<string | null>(null); const [metric, setMetric] = useState<MapMetric>('count');
   const [tab, setTab] = useState<'map' | 'method'>('map'); const [showImport, setShowImport] = useState(false); const [query, setQuery] = useState('');
   const [verifiedOnly, setVerifiedOnly] = useState(false);
+  const [dataOrigin, setDataOrigin] = useState(remoteData ? 'Supabase · lecture seule' : 'Fichiers JSON');
   useEffect(() => { configuredRepository.load().then(({ dataset, governorates }) => { setDataset(dataset); setGovernorates(governorates); }).catch(e => setLoadError(e.message)); }, []);
   const observations = useMemo(() => dataset ? filterObservations(dataset.observations, filters) : [], [dataset, filters]);
   const countedDataset = useMemo(() => dataset && verifiedOnly && dataset.territorial_counts ? { ...dataset, territorial_counts: dataset.territorial_counts.filter(r => r.verification === 'verified') } : dataset, [dataset, verifiedOnly]);
@@ -60,7 +61,7 @@ export default function App() {
   const selectedEvidence = evidence.filter(o => o.facility_id === selectedSite);
   const unknownCoords = new Set(observations.filter(o => o.latitude === null).map(o => o.facility_id)).size;
   const pub = territories.reduce((sum,t) => sum + t.publicCount, 0); const total = totalCt + totalMri;
-  const switchDataset = async (name: 'demo' | 'inventory2024') => { try { setDataset(name === 'inventory2024' ? (await configuredRepository.load()).dataset : await loadBundledDataset(name)); setLoadError(''); setFilters(DEFAULT_FILTERS); setSelectedSite(null); setVerifiedOnly(false); setQuery(''); } catch(e) { setLoadError((e as Error).message); } };
+  const switchDataset = async (name: 'demo' | 'inventory2024') => { try { setDataset(name === 'inventory2024' ? (await configuredRepository.load()).dataset : await loadBundledDataset(name)); setDataOrigin(name === 'demo' ? 'Démonstration locale' : remoteData ? 'Supabase · lecture seule' : 'Fichiers JSON'); setLoadError(''); setFilters(DEFAULT_FILTERS); setSelectedSite(null); setVerifiedOnly(false); setQuery(''); } catch(e) { setLoadError((e as Error).message); } };
   const updateGov = (governorate: string) => { setFilters(f => ({ ...f, governorate })); setSelectedSite(null); };
   const toggle = (key: 'equipment' | 'sectors', value: Equipment | Sector) => {
     setSelectedSite(null); setFilters(f => {
@@ -121,8 +122,8 @@ export default function App() {
         {documentary && <section className="facility-list"><details><summary><Building2 size={16} />Dossiers d’établissements réels · collecte partielle <span>{facilityCount} sites <ChevronDown size={15} /></span></summary><p className="fine evidence-list-note">Présences déclarées, usages historiques et projets sont distingués dans chaque fiche. Ces dossiers ne sont pas ajoutés aux totaux de l’inventaire.</p><div>{[...new Set(evidence.map(r => r.facility_id))].map(id => { const site=evidence.find(r => r.facility_id===id)!; return <button key={id} onClick={() => {setSelectedSite(id);document.querySelector('.workspace')?.scrollIntoView({behavior:'smooth'});}}><span>{site.facility_name}<small>{site.sector ? SECTOR_LABELS[site.sector] : 'Secteur à confirmer'} · {governorates.find(g => g.code===site.governorate_code)?.name ?? 'Gouvernorat à confirmer'} · {site.latitude===null ? 'sans point localisé' : 'position approximative sourcée'}</small></span><ArrowUpRight size={15}/></button>; })}</div></details></section>}
         {!documentary && <section className="facility-list"><details><summary><Building2 size={16} />Liste des établissements du périmètre <span>{facilityCount} sites <ChevronDown size={15} /></span></summary><div>{[...new Set(observations.map(o => o.facility_id))].map(id => { const site = observations.find(o => o.facility_id === id)!; return <button key={id} onClick={() => { setSelectedSite(id); document.querySelector('.workspace')?.scrollIntoView({ behavior: 'smooth' }); }}><span>{site.facility_name}<small>{SECTOR_LABELS[site.sector]} · {governorates.find(g => g.code === site.governorate_code)?.name}{site.latitude === null ? ' · localisation inconnue' : ''}</small></span><ArrowUpRight size={15} /></button>; })}{facilityCount === 0 && <p>Aucun établissement recensé dans ce périmètre.</p>}</div></details></section>}
       </>)}
-      <footer><span>atlas imagerie <span>· Tunisie</span></span><p>Atlas documentaire · {dataset?.is_demo ? 'Données sanitaires fictives' : 'Sources à examiner'} · {dataset?.is_demo ? 'Démonstration locale' : remoteData ? 'Supabase · lecture seule' : 'Fichiers JSON'}</p><span className="footer-motto">Observer. Comprendre. Documenter.</span></footer>
+      <footer><span>atlas imagerie <span>· Tunisie</span></span><p>Atlas documentaire · {dataset?.is_demo ? 'Données sanitaires fictives' : 'Sources à examiner'} · {dataOrigin}</p><span className="footer-motto">Observer. Comprendre. Documenter.</span></footer>
     </main>
-    {showImport && <ImportDialog governorates={governorates} onClose={() => setShowImport(false)} onApply={d => { setDataset(d); setFilters(DEFAULT_FILTERS); setSelectedSite(null); setShowImport(false); setQuery(''); }} />}
+    {showImport && <ImportDialog governorates={governorates} onClose={() => setShowImport(false)} onApply={d => { setDataset(d); setDataOrigin('Fichier importé dans cet onglet'); setFilters(DEFAULT_FILTERS); setSelectedSite(null); setShowImport(false); setQuery(''); }} />}
   </>;
 }

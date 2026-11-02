@@ -5,9 +5,9 @@ import { number } from '../domain/indicators';
 const dateLabel=(value:string)=>new Intl.DateTimeFormat('fr-FR',{dateStyle:'medium',timeZone:'UTC'}).format(new Date(value));
 export interface TerritoryDetailsProps {
  dataset: Dataset; filters: Filters; governorates: Governorate[]; territories: TerritoryIndicator[];
- evidence: FacilityEvidence[]; verifiedOnly: boolean; onSite:(id:string)=>void; onMethod:()=>void;
+ evidence: FacilityEvidence[]; verifiedOnly: boolean; onSite:(id:string)=>void;
 }
-export default function TerritoryDetails({dataset,filters,governorates,territories,evidence,verifiedOnly,onSite,onMethod}:TerritoryDetailsProps){
+export default function TerritoryDetails({dataset,filters,governorates,territories,evidence,verifiedOnly,onSite}:TerritoryDetailsProps){
  const documentary=!!dataset.territorial_counts;
  const selected=!!filters.governorate;
  const pub=territories.reduce((sum,t)=>sum+t.publicCount,0);
@@ -27,7 +27,7 @@ export default function TerritoryDetails({dataset,filters,governorates,territori
    <h2>{selected?governorates.find(g=>g.code===filters.governorate)?.name:'Une vue d’ensemble'}</h2>
    <p className="insight-description">{selected?(documentary?'Inventaire 2024 et dossiers d’établissements':STATUS_LABELS[territories[0]?.status??'no_data']):'Comprendre la répartition, sans masquer les données manquantes.'}</p>
    {selected && documentary && <>
-     <div className="territory-inventory"><h3>Équipements déclarés · 2024</h3><p className="fine">Copie documentaire non authentifiée · à confirmer</p>
+     <div className="territory-inventory"><h3>Équipements recensés · 2024</h3><p className="fine">Inventaire au 31 décembre 2024</p>
        <table aria-label="Équipements par type et secteur"><thead><tr><th>Type</th><th>Public</th><th>Privé</th><th>Total</th></tr></thead><tbody>
          {(['CT','MRI'] as Equipment[]).map(type=>{
            const publicValue=displayCell(type,'public'), privateValue=displayCell(type,'private');
@@ -36,7 +36,7 @@ export default function TerritoryDetails({dataset,filters,governorates,territori
            return <tr key={type}><th scope="row">{EQUIPMENT_LABELS[type]}</th><td>{publicValue}</td><td>{privateValue}</td><td><strong>{count}</strong></td></tr>;
          })}
        </tbody></table>
-       {verifiedOnly && <p className="territory-explanation"><Info size={14}/>Les totaux sont masqués par le filtre « Masquer les totaux non authentifiés ». Cela ne signifie pas une absence d’équipement.</p>}
+       {verifiedOnly && <p className="territory-explanation"><Info size={14}/>Les totaux sont masqués par le filtre « Sources vérifiées uniquement ». Cela ne signifie pas une absence d’équipement.</p>}
      </div>
      <div className="territory-sites"><h3><Building2 size={15}/>Dossiers disponibles <span>{siteIds.length}</span></h3>
        {siteIds.length>0?<>
@@ -53,12 +53,11 @@ export default function TerritoryDetails({dataset,filters,governorates,territori
        </>:<p className="fine">Aucun dossier nominatif pour les filtres actifs. Les totaux territoriaux et les coordonnées d’établissements sont deux informations distinctes.</p>}
      </div>
    </>}
-   {selected && dataset.is_demo && <p className="territory-explanation"><Info size={14}/>Le jeu fictif est actif. Ses zones vides ne décrivent pas la réalité : choisissez « Inventaire documentaire 2024 » au-dessus de la carte.</p>}
+   {selected && dataset.is_demo && <p className="territory-explanation"><Info size={14}/>Le jeu fictif est actif. Ses zones vides ne décrivent pas la réalité : choisissez « Inventaire 2024 » au-dessus de la carte.</p>}
    <div className="distribution"><span>Répartition des équipements</span><div className="distribution-bar">{total>0 && <><i style={{width:`${pub/total*100}%`}}/><i style={{width:`${(total-pub)/total*100}%`}}/></>}</div><div><span><i/>Public <strong>{totalsUnknown?'—':pub}</strong></span><span><i/>Privé <strong>{totalsUnknown?'—':total-pub}</strong></span></div></div>
    {selected && <div className="territory-ratio"><span>Équipements / 100 000 habitants</span><strong>{territories[0]?.density!=null?number(territories[0].density):'—'}</strong><p className="fine">{territories[0]?.population?`Population ${dataset.is_demo?'fictive':'déclarée'} : ${number(territories[0].population.population)} · ${dateLabel(territories[0].population.observed_on)}`:'Population non disponible : aucun ratio calculé.'}</p></div>}
-   {documentary && <div className="source-card"><strong>Inventaire territorial · 2024</strong><p>Copie tierce attribuée au ministère. Authenticité non établie ; fonctionnement actuel inconnu.</p><p className="fine">Population : INS, RGPH 2024, source primaire. Ratio provisoire. Les dossiers d’établissements ne sont pas additionnés aux totaux.</p><a href={dataset.source_url} target="_blank" rel="noreferrer" className="text-link">Voir le tableau source ↗</a></div>}
+   {documentary && <div className="source-card"><strong>Sources · 2024</strong><p>Équipements au 31 décembre 2024 : Carte sanitaire 2024, tableau 45 · copie consultée.</p><p className="fine">Population : INS, RGPH au 6 novembre 2024. Les dossiers d’établissements restent distincts des totaux territoriaux.</p><a href={dataset.source_url} target="_blank" rel="noreferrer" className="text-link">Consulter la copie source ↗</a><a href="https://www.ins.tn/sites/default/files-ftp3/files/2025-05/Bilan%20D%C3%A9mographique_0.pdf" target="_blank" rel="noreferrer" className="text-link">Population INS ↗</a></div>}
    {!selected && <div className="click-hint"><Focus size={23}/><h3>Explorez un territoire</h3><p>Cliquez sur un gouvernorat pour consulter les chiffres par type et secteur, ainsi que les dossiers disponibles, même sans point géographique.</p></div>}
    <div className="method-note"><ShieldCheck size={18}/><p>{dataset.is_demo?'Les scénarios d’absence et de présence sont eux aussi fictifs.':'Une absence dans un fichier ne prouve pas une absence d’équipement.'}</p></div>
-   <button className="text-link method-link" onClick={onMethod}>Comprendre les indicateurs <ArrowRight size={15}/></button>
  </section>;
 }

@@ -12,7 +12,7 @@ test('Au clic sur Médenine, le panneau affiche ses dossiers sans exiger de poin
  const filters={...DEFAULT_FILTERS,governorate:'TN-82'};
  const html=renderToStaticMarkup(<TerritoryDetails dataset={dataset} filters={filters} governorates={governorates}
   territories={territoryIndicators(dataset,governorates,filters)} evidence={filterEvidence(dataset.facility_evidence!,filters)}
-  verifiedOnly={false} onSite={()=>{}} onMethod={()=>{}} />);
+  verifiedOnly={false} onSite={()=>{}} />);
  assert.match(html,/Hôpital régional de Zarzis/);
  assert.match(html,/Polyclinique Arij Midoun Djerba/);
  assert.match(html,/Hôpital régional de Médenine/);
@@ -25,7 +25,7 @@ test('Le panneau explique le masquage des totaux et garde les dossiers de Méden
  const counted={...dataset,territorial_counts:[]};
  const html=renderToStaticMarkup(<TerritoryDetails dataset={dataset} filters={filters} governorates={governorates}
   territories={territoryIndicators(counted,governorates,filters)} evidence={filterEvidence(dataset.facility_evidence!,filters)}
-  verifiedOnly={true} onSite={()=>{}} onMethod={()=>{}} />);
+  verifiedOnly={true} onSite={()=>{}} />);
  assert.match(html,/Les totaux sont masqués/);
  assert.match(html,/Scanner CT<\/th><td>—<\/td><td>—<\/td>/);
  assert.match(html,/Hôpital régional de Zarzis/);
@@ -35,7 +35,7 @@ test('Le panneau signale le mode fictif plutôt que laisser croire à un inventa
  const filters={...DEFAULT_FILTERS,governorate:'TN-82'};
  const html=renderToStaticMarkup(<TerritoryDetails dataset={demo} filters={filters} governorates={governorates}
   territories={territoryIndicators(demo,governorates,filters)} evidence={[]}
-  verifiedOnly={false} onSite={()=>{}} onMethod={()=>{}} />);
+  verifiedOnly={false} onSite={()=>{}} />);
  assert.match(html,/Le jeu fictif est actif/);
  assert.match(html,/ne décrivent pas la réalité/);
 });

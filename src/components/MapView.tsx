@@ -93,9 +93,9 @@ export default function MapView(props: Props) {
       onEachFeature: (feature, layer) => {
         const code = feature.properties.shapeISO;
         const t = p.territories.find(t => t.code === code);
-        layer.bindTooltip(summaryCard(feature.properties.shapeName, t), { sticky: true, className: 'territory-tooltip' });
+        // One region card, opened on click. A hover card would reopen on the
+        // replacement layer after redraw and overlap the persistent popup.
         layer.on('click', (event: L.LeafletMouseEvent) => {
-          layer.closeTooltip();
           const popup = L.popup({ className: 'territory-popup', minWidth: 220, maxWidth: 280 })
             .setLatLng(event.latlng).setContent(summaryCard(feature.properties.shapeName, t)).openOn(map.current!);
           regionPopup.current = { code, popup };

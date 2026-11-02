@@ -2,7 +2,7 @@ import { publicAsset } from '../data/paths';
 import { useEffect, useRef } from 'react';
 import L from 'leaflet';
 import type { FeatureCollection, Geometry } from 'geojson';
-import type { Equipment, MapFacility, TerritoryIndicator } from '../domain/model';
+import type { Equipment, TerritoryIndicator } from '../domain/model';
 import { STATUS_LABELS } from '../domain/model';
 import { number } from '../domain/indicators';
 import { equipmentSummary } from './mapSummary';
@@ -17,15 +17,15 @@ export function territoryColor(t: TerritoryIndicator, metric: MapMetric) {
   return colors[breaks.filter(b => value > b).length];
 }
 interface Props {
-  territories: TerritoryIndicator[]; observations: MapFacility[]; metric: MapMetric;
+  territories: TerritoryIndicator[]; isDemo: boolean; metric: MapMetric;
   governorate: string; selectedSite: string | null;
   inventoryLabel?: string;
   equipment: Equipment[];
-  onGovernorate: (code: string) => void; onSite: (id: string) => void;
+  onGovernorate: (code: string) => void;
 }
 export default function MapView(props: Props) {
   const container = useRef<HTMLDivElement>(null);
-  const map = useRef<L.Map | null>(null); const shapes = useRef<L.GeoJSON | null>(null); const points = useRef<L.LayerGroup | null>(null);
+  const map = useRef<L.Map | null>(null); const shapes = useRef<L.GeoJSON | null>(null);
   const geometry = useRef<FeatureCollection<Geometry> | null>(null);
   const regionPopup = useRef<{ code: string; popup: L.Popup } | null>(null);
   const current = useRef(props); current.current = props;
@@ -43,7 +43,7 @@ export default function MapView(props: Props) {
       L.DomEvent.disableClickPropagation(button);
       button.onclick = () => instance.fitBounds([[30.1, 7.3], [37.6, 11.6]], { padding: [12, 12] }); return button;
     };
-    home.addTo(instance); map.current = instance; points.current = L.layerGroup().addTo(instance);
+    home.addTo(instance); map.current = instance;
     let cancelled = false;
     const loadGeometry = window.__ATLAS_LOCAL__ ? Promise.resolve(window.__ATLAS_LOCAL__.geometry)
       : fetch(publicAsset('/data/tunisia-governorates.geojson')).then(r => { if (!r.ok) throw Error(); return r.json(); });
@@ -66,7 +66,7 @@ export default function MapView(props: Props) {
     }
     card.append(counts);
     const note = document.createElement('small');
-    note.textContent = p.inventoryLabel ?? (p.observations.some(o => o.is_demo) ? 'Exemple fictif · ne décrit pas le parc réel' : 'Équipements recensés · filtres actifs');
+    note.textContent = p.inventoryLabel ?? (p.isDemo ? 'Exemple fictif · ne décrit pas le parc réel' : 'Équipements recensés · filtres actifs');
     card.append(note);
     if (!territory || territory.status === 'no_data') {
       const missing = document.createElement('small'); missing.textContent = 'Données indisponibles ou masquées par les filtres.'; card.append(missing);
@@ -81,7 +81,7 @@ export default function MapView(props: Props) {
   function redraw() {
     if (!map.current || !geometry.current) return;
     const p = current.current;
-    shapes.current?.remove(); points.current?.clearLayers();
+    shapes.current?.remove();
     shapes.current = L.geoJSON(geometry.current, {
       style: feature => {
         const code = feature?.properties?.shapeISO;
@@ -103,20 +103,6 @@ export default function MapView(props: Props) {
         });
       },
     }).addTo(map.current);
-    const sites = new Map<string, MapFacility[]>();
-    for (const row of p.observations) sites.set(row.facility_id, [...(sites.get(row.facility_id) ?? []), row]);
-    for (const [id, rows] of sites) {
-      const site = rows[0]; if (site.latitude === null || site.longitude === null) continue;
-      const ct = rows.some(r => r.equipment_type === 'CT'); const mri = rows.some(r => r.equipment_type === 'MRI');
-      const selected = p.selectedSite === id;
-      const icon = L.divIcon({ className: 'facility-pin-wrapper', iconSize: [24, 24], iconAnchor: [12, 12],
-        html: `<span class="facility-pin ${ct && mri ? 'mixed' : ct ? 'ct' : 'mri'} ${site.sector === 'private' ? 'private' : ''} ${selected ? 'selected' : ''}"></span>` });
-      const marker = L.marker([site.latitude, site.longitude], { icon, keyboard: true, title: site.facility_name, alt: site.facility_name,
-        zIndexOffset: selected ? 1000 : 0 });
-      const tooltip = document.createElement('div'); tooltip.textContent = `${site.facility_name} · ${site.sector === 'public' ? 'Public' : 'Privé'}${site.is_demo ? ' · FICTIF' : ''}`;
-      marker.bindTooltip(tooltip, { direction: 'top', offset: [0, -12] }); marker.on('click', () => current.current.onSite(id));
-      marker.addTo(points.current!);
-    }
     const opened = regionPopup.current;
     if (opened?.popup.isOpen()) {
       if (opened.code === p.governorate && !p.selectedSite) {
@@ -125,7 +111,7 @@ export default function MapView(props: Props) {
       } else { opened.popup.close(); regionPopup.current = null; }
     }
   }
-  useEffect(redraw, [props.territories, props.observations, props.metric, props.governorate, props.selectedSite, props.inventoryLabel, props.equipment]);
+  useEffect(redraw, [props.territories, props.isDemo, props.metric, props.governorate, props.selectedSite, props.inventoryLabel, props.equipment]);
   useEffect(() => {
     if (!map.current || !props.governorate || !shapes.current) return;
     shapes.current.eachLayer(layer => {

@@ -7,7 +7,7 @@ Application de cartographie descriptive des scanners CT et IRM, utilisable en lo
 - `public/data/inventory2024.json` : 96 cellules territoriales (24 gouvernorats × CT/IRM × public/privé), 24 populations INS, dossiers d’établissements.
 - Les totaux 2024 sont **transcrits d’une copie tierce non authentifiée** : 212 CT et 73 IRM. L’interface affiche « Inventaire 2024 » et conserve les références dans les fiches. Les niveaux de vérification restent dans les données, l’export et le filtre « Sources vérifiées uniquement ». Ce n’est pas un inventaire du parc fonctionnel en 2026. La page « Données & méthode » a été retirée de l’interface publique ; cette documentation technique reste dans le dépôt.
 - Les dossiers d’établissements documentent des présences déclarées, usages historiques, mises en service, projets ou pannes. Ils ne sont jamais additionnés aux agrégats 2024.
-- Les points géographiques sont des positions représentatives d’emprises hospitalières OSM explicitement identifiées, pas la position des machines. Chaque point garde sa source distincte. Aucun centre de gouvernorat ni centre de viewport de carte n’est utilisé comme adresse d’établissement.
+- La carte affiche uniquement les gouvernorats, sans points d’établissements. Le clic sur un gouvernorat ouvre ses chiffres et les dossiers disponibles. Les coordonnées conservées dans les données sont des positions représentatives d’emprises hospitalières OSM explicitement identifiées, pas la position des machines ; chaque localisation garde sa source distincte. Aucun centre de gouvernorat ni centre de viewport de carte n’est utilisé comme adresse d’établissement.
 - Un zéro imprimé est « zéro déclaré dans la source », jamais une absence actuelle vérifiée.
 - `scripts/build-inventory-data.py` reconstruit la projection locale à partir du corpus de recherche. Les extraits structurés de recherche sont conservés dans `data/research/` et leurs sources restent attachées aux observations. Aucun PDF tiers intégral n’est redistribué. Les exports de travail sont générés dans `work/research-exports/`.
 
@@ -36,7 +36,7 @@ Après installation, la carte et les données fonctionnent sans service de tuile
 
 ## Organisation
 
-- `src/components/MapView.tsx` : carte Leaflet et points d’établissements.
+- `src/components/MapView.tsx` : carte Leaflet des gouvernorats et fiches régionales au clic.
 - `src/components/ImportDialog.tsx` : validation et aperçu avant remplacement en mémoire.
 - `src/data/repository.ts` : chargement local, contrat de remplacement futur, validation et import CSV.
 - `src/data/importFile.ts` : lecture locale CSV/JSON/Excel et conversion des cellules Excel vers le même contrat de validation.
@@ -70,7 +70,7 @@ JSON : même enveloppe que `demo.json` (`version`, `title`, `is_demo`, `updated_
 
 Champs des observations : `id`, `facility_id`, `facility_name`, `facility_type`, `sector` (`public`/`private`), `governorate_code` (`TN-11`…), `delegation`, `latitude`, `longitude`, `equipment_type` (`CT`/`MRI`), `equipment_count` (entier positif), `functional_status` (`operational`/`non_operational`/`unknown`), `observed_on` (AAAA-MM-JJ), `source`, `source_reference`, `verification` (`verified`/`unverified`/`example`), `note`, `is_demo` (booléen).
 
-Coordonnées : null par paire si inconnues. Pas de point fictif pour une adresse inconnue. Ces sites restent dans les indicateurs et la liste des établissements. Les bornes de coordonnées sont un contrôle grossier de zone, pas une validation géographique fine.
+Coordonnées : null par paire si inconnues. Aucune localisation n’est inventée pour une adresse inconnue. Les coordonnées restent conservées dans les données, sans marqueurs sur la carte. Tous les sites restent dans les indicateurs et la liste des établissements. Les bornes de coordonnées sont un contrôle grossier de zone, pas une validation géographique fine.
 
 Les observations vérifiées sont **déclarées** telles par le fichier ; l’application ne vérifie pas la source. Un fichier ne peut pas mélanger exemples et données réelles. Les imports invalides sont rejetés sans changer le jeu affiché.
 
@@ -84,7 +84,7 @@ Les observations vérifiées sont **déclarées** telles par le fichier ; l’ap
 - Aucune donnée : au moins une partie de la sélection n’est pas documentée.
 - Aucun équipement recensé dans la source : périmètre documenté mais absence non prouvée.
 - « — » n’est jamais converti en zéro. Zéro uniquement pour une absence vérifiée dans les données.
-- La carte et le tableau suivent les mêmes filtres. Les points sont regroupés par site ; couleur CT/IRM/mixte et forme public/privé.
+- La carte et le tableau suivent les mêmes filtres. La coloration décrit les gouvernorats ; le clic donne accès aux chiffres régionaux et aux dossiers d’établissements, sans points dispersés sur la carte.
 - Le découpage de 2017 n’est pas certifié à jour ni une source administrative tunisienne officielle. Source [geoBoundaries](https://www.geoboundaries.org/api/current/gbOpen/TUN/ADM1/), [licence ODbL](https://opendatacommons.org/licenses/odbl/1-0/), [OSM](https://www.openstreetmap.org/copyright).
 - Aucun score de besoin, temps de trajet, seuil normatif ni recommandation d’autorisation.
 

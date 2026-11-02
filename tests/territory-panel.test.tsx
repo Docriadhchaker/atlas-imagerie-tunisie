@@ -16,7 +16,7 @@ test('Au clic sur Médenine, le panneau affiche ses dossiers sans exiger de poin
  assert.match(html,/Hôpital régional de Zarzis/);
  assert.match(html,/Polyclinique Arij Midoun Djerba/);
  assert.match(html,/Hôpital régional de Médenine/);
- assert.match(html,/sans coordonnées/);
+ assert.match(html,/Consultez les dossiers ci-dessous/);
  assert.match(html,/Scanner CT<\/th><td>6<\/td><td>10<\/td><td><strong>16<\/strong>/);
  assert.match(html,/IRM<\/th><td>1<\/td><td>4<\/td><td><strong>5<\/strong>/);
 });
